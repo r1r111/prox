@@ -887,12 +887,12 @@ DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
 
 # > Twitter
-HOST-SUFFIX,static.ads-twitter.com,REJECT
-HOST-SUFFIX,analytics.twitter.com,REJECT
-HOST-SUFFIX,search.twitter.com,REJECT
-HOST-SUFFIX,syndication.twitter.com,REJECT
-HOST-SUFFIX,ads.twitter.com,REJECT
-HOST-SUFFIX,p.twitter.com,REJECT
-HOST-SUFFIX,scribe.twitter.com,REJECT
-HOST-SUFFIX,syndication-o.twitter.com,REJECT
-HOST-SUFFIX,urls.api.twitter.com,REJECT
+DOMAIN-SUFFIX,static.ads-twitter.com,REJECT
+DOMAIN-SUFFIX,analytics.twitter.com,REJECT
+DOMAIN-SUFFIX,search.twitter.com,REJECT
+DOMAIN-SUFFIX,syndication.twitter.com,REJECT
+DOMAIN-SUFFIX,ads.twitter.com,REJECT
+DOMAIN-SUFFIX,p.twitter.com,REJECT
+DOMAIN-SUFFIX,scribe.twitter.com,REJECT
+DOMAIN-SUFFIX,syndication-o.twitter.com,REJECT
+DOMAIN-SUFFIX,urls.api.twitter.com,REJECT
