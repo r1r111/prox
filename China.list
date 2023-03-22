@@ -8,12 +8,6 @@ host-suffix,jd.com,DIRECT
 host-suffix,jd.hk,DIRECT
 host-suffix,jdpay.com,DIRECT
 host-suffix,360buyimg.com,DIRECT
-# 字节跳动
-host-suffix,feiliao.com,DIRECT
-host-suffix,pstatp.com,DIRECT
-host-suffix,snssdk.com,DIRECT
-host-suffix,iesdouyin.com,DIRECT
-host-suffix,toutiao.com,DIRECT
 # 百度
 host-suffix,baidu.com,DIRECT
 host-suffix,baidubcr.com,DIRECT
@@ -35,8 +29,6 @@ host-suffix,tmall.com,DIRECT
 host-suffix,tmall.hk,DIRECT
 host-suffix,ykimg.com,DIRECT
 host-suffix,youku.com,DIRECT
-host-suffix,xiami.com,DIRECT
-host-suffix,xiami.net,DIRECT
 # 腾讯
 user-agent,MicroMessenger%20Client,DIRECT
 host-suffix,gtimg.com,DIRECT
@@ -60,7 +52,6 @@ host-suffix,meituan.com,DIRECT
 host-suffix,meituan.net,DIRECT
 host-suffix,smzdm.com,DIRECT
 host-suffix,ximalaya.com,DIRECT
-host-suffix,xinhuanet.com,DIRECT
 host-suffix,xmcdn.com,DIRECT
 host-suffix,yangkeduo.com,DIRECT
 host-suffix,zhihu.com,DIRECT
@@ -73,9 +64,6 @@ host-suffix,appstore.com,DIRECT
 host-suffix,bdimg.com,DIRECT
 host-suffix,caiyunapp.com,DIRECT
 host-suffix,geetest.com,DIRECT
-host-suffix,jianshu.com,DIRECT
-host-suffix,jianshu.io,DIRECT
-host-suffix,jianshuapi.com,DIRECT
 host-suffix,qcloud.com,DIRECT
 host-suffix,sf-express.com,DIRECT
 host-suffix,sinaapp.com,DIRECT
