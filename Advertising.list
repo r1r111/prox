@@ -16,6 +16,7 @@ DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
+DOMAIN,hm.baidu.com,REJECT
 
 # (G)
 # > Google
@@ -24,6 +25,7 @@ DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN,www.google-analytics.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 
 # > Sina
@@ -71,6 +73,7 @@ USER-AGENT,AVOS*,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
 DOMAIN,118.89.204.198,REJECT
 IP-CIDR,118.89.204.198/32,REJECT
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
@@ -85,3 +88,4 @@ DOMAIN-SUFFIX,p.twitter.com,REJECT
 DOMAIN-SUFFIX,scribe.twitter.com,REJECT
 DOMAIN-SUFFIX,syndication-o.twitter.com,REJECT
 DOMAIN-SUFFIX,urls.api.twitter.com,REJECT
+DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
