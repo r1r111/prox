@@ -89,3 +89,13 @@ DOMAIN-SUFFIX,scribe.twitter.com,REJECT
 DOMAIN-SUFFIX,syndication-o.twitter.com,REJECT
 DOMAIN-SUFFIX,urls.api.twitter.com,REJECT
 DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
+
+# > Reddit
+DOMAIN-SUFFIX,alb.reddit.com,REJECT
+DOMAIN-SUFFIX,buttons.reddit.com,REJECT
+DOMAIN-SUFFIX,events.reddit.com,REJECT
+DOMAIN-SUFFIX,w3-reporting.reddit.com,REJECT
+DOMAIN-SUFFIX,events.redditmedia.com,REJECT
+
+# > Quora
+DOMAIN-SUFFIX,log.quora.com,REJECT
