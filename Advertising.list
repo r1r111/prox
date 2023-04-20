@@ -1,101 +1,342 @@
-# Advertising
-# (A)
-# > Apple
-DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+hostname = gw.alicdn.com,heic.alicdn.com,acs.m.taobao.com,amap-aos-info-nogw.amap.com,pan.baidu.com,issuecdn.baidupcs.com,manga.bilibili.com,api.douban.com,api.m.jd.com,appconf.mail.163.com,interface*.music.163.com,api.yangkeduo.com,api.pinduoduo.com,api.weibo.*, *.api.weibo.*, mapi.weibo.*, *.uve.weibo.com, new.vip.weibo.cn, boot.biz.weibo.com,4gimg.map.qq.com,msg.umengcloud.com,api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.175.228,edith.xiaohongshu.com,www.xiaohongshu.com,pages.xiaohongshu.com,referee.xiaohongshu.com,118.89.204.198,103.41.167.237,2402:4e00:1200:ed00:0:9089:6dac:96b6,www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,m-cloud.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226,api.xiuxiu.meitu.com,biz.caiyunapp.com,biz.cyapi.cn,cdn-w.caiyunapp.com,ad.cyapi.cn
+
+# > WeChat Official Account
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
+
+# URL Rewrite
+# YOUKU = reject
+# VISTOPIA = reject|reject
+# JD = reject-img
+
+# A
 # --- (Alibaba) ---
-DOMAIN,tunion-api.m.taobao.com,REJECT
-# (B)
-# --- (Baidu) ---
-DOMAIN-SUFFIX,duapps.com,REJECT
-DOMAIN-SUFFIX,cpro.baidu.com,REJECT
-DOMAIN-SUFFIX,pos.baidu.com,REJECT
-DOMAIN,afd.baidu.com,REJECT
-DOMAIN,als.baidu.com,REJECT
-DOMAIN,duclick.baidu.com,REJECT
-DOMAIN,mobads.baidu.com,REJECT
-DOMAIN,mobads-logs.baidu.com,REJECT
-DOMAIN,nadvideo2.baidu.com,REJECT
-DOMAIN,nsclick.baidu.com,REJECT
-DOMAIN,hm.baidu.com,REJECT
+# > Taobao - gw.alicdn.com,heic.alicdn.com
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(heic|webp)$ url reject
+# > Fliggy - gw.alicdn.com
+^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$ url reject
+# > eTao - acs.m.taobao.com
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise url reject
+# > Taopiaopiao - acs.m.taobao.com
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ url reject
+# > AMap - m*.amap.com
+^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen url reject
+# > YOUKU
+# ^https?:\/\/.+?\.ott\.cibntv\.net\/[\w\/-]+.mp4\?sid= url reject
+# > Kaola - gw.kaola.com
+# ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd url reject
+# ---
 
-# (G)
-# > Google
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,googleadservices.com,REJECT
-DOMAIN-SUFFIX,googleadsserving.cn,REJECT
-DOMAIN-SUFFIX,googlesyndication.com,REJECT
-DOMAIN-SUFFIX,googletagservices.com,REJECT
-DOMAIN,www.google-analytics.com,REJECT
-DOMAIN,ads.youtube.com,REJECT
+# B
+# > ByteDance
+# ^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject
+# ^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/ url reject
+# ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ url reject
+# ^https?:\/\/[\w-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject
+# ^https?:\/\/.+?\/img\/ad\.union\.api\/ url reject
+# ---(Baidu)---
+# > Baidu NetDisk - issuecdn.baidupcs.com
+^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx url reject
+^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject
+^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao url reject
+# > Baidu Tieba
+^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo url reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
+# ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule url reject
+^https?:\/\/.+?\/c\/s\/splashSchedule url reject
+# > Baidu Map - newclient.map.baidu.com
+# ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject
+# > iQIYI - act.vip.iqiyi.com,intl.iqiyi.com
+# ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject
+# ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do url reject
+# ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show url reject
+# ^https?:\/\/intl\.iqiyi\.com\/ad_external\/ url reject
+# ^https?:\/\/intl\.iqiyi\.com\/video\/advertise url reject
+# ^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ url reject
+# ---
+# > bilibili - app.bilibili.com,manga.bilibili.com
+# ^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject
+# > Beike - app.api.ke.com
+# ^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage url reject
 
-# > Sina
-DOMAIN-SUFFIX,alitui.weibo.com,REJECT
-DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
-DOMAIN,adimg.uve.weibo.com,REJECT
-DOMAIN,adimg.vue.weibo.com,REJECT
-DOMAIN,u1.img.mobile.sina.cn,REJECT
-DOMAIN,sax.sina.com.cn,REJECT
-DOMAIN,saxs.sina.com.cn,REJECT
-DOMAIN,saxn.sina.com.cn,REJECT
+# # 白描
+# ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/baimiao.js
 
-# --- (Tencent) ---
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
-DOMAIN,adsmind.gdtimg.com,REJECT
-DOMAIN,adsmind.tc.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pgdt.gtimg.com,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,splashqqlive.gtimg.com,REJECT
-DOMAIN,wa.gtimg.com,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+# C
+# > ChinaMobile - clientaccess.10086.cn
+# ^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject
+# ^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject
+# ---
+# > ChinaUnicom - m.client.10010.com
+# ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm url reject
+# ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject
 
-# > Ximalaya
-DOMAIN,ad.ximalaya.com,REJECT
-DOMAIN,adbs.ximalaya.com,REJECT
-DOMAIN,adse.ximalaya.com,REJECT
-DOMAIN,adse.wsa.ximalaya.com,REJECT
-DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
-DOMAIN,adbehavior.ximalaya.com,REJECT
-DOMAIN,adsebs.ximalaya.com,REJECT
-# > Xiaohongshu
-DOMAIN,ads-img-qc.xhscdn.com,REJECT
-DOMAIN,ads-video-al.xhscdn.com,REJECT
-DOMAIN,ads-video-qc.xhscdn.com,REJECT
-DOMAIN,t-ads.xiaohongshu.com,REJECT
+# 彩云
+^https?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/cyw.js
+^https:\/\/cdn-w\.caiyunapp\.com\/p\/app\/activity url reject
+^https:\/\/biz\.cyapi\.cn\/p\/v1\/entries url reject-dict
+^https:\/\/ad\.cyapi\.cn\/* url reject
 
-# (Z)
-# > Zhihu
-USER-AGENT,AVOS*,REJECT
-DOMAIN,appcloud2.in.zhihu.com,REJECT
-DOMAIN,mqtt.zhihu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
-DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
-DOMAIN,118.89.204.198,REJECT
-IP-CIDR,118.89.204.198/32,REJECT
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# > CSDN - app-gw.csdn.net
+^https?:\/\/app-gw\.csdn\.net\/cms-app\/v\d\/home_page\/open_advertisement url reject
 
-# > Twitter
-DOMAIN-SUFFIX,static.ads-twitter.com,REJECT
-DOMAIN-SUFFIX,analytics.twitter.com,REJECT
-DOMAIN-SUFFIX,search.twitter.com,REJECT
-DOMAIN-SUFFIX,syndication.twitter.com,REJECT
-DOMAIN-SUFFIX,ads.twitter.com,REJECT
-DOMAIN-SUFFIX,p.twitter.com,REJECT
-DOMAIN-SUFFIX,scribe.twitter.com,REJECT
-DOMAIN-SUFFIX,syndication-o.twitter.com,REJECT
-DOMAIN-SUFFIX,urls.api.twitter.com,REJECT
-DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
+# D
+# > douban - api.douban.com
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ url reject
+# > Dangdang - api.dangdang.com,e.dangdang.com
+# ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init url reject
+# ^https?:\/\/e\.dangdang\.com\/media\/api\d\.go\?action=getDeviceStartPage url reject
 
-# > Reddit
-DOMAIN-SUFFIX,alb.reddit.com,REJECT
-DOMAIN-SUFFIX,buttons.reddit.com,REJECT
-DOMAIN-SUFFIX,events.reddit.com,REJECT
-DOMAIN-SUFFIX,w3-reporting.reddit.com,REJECT
-DOMAIN-SUFFIX,events.redditmedia.com,REJECT
+# J
+# > JD - api.m.jd.com
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start url reject-img
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts url reject
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ url reject
 
-# > Quora
-DOMAIN-SUFFIX,log.quora.com,REJECT
+# M
+# > Meituan-Dianping - flowplus.meituan.net
+#^https?:\/\/img\.meituan\.net\/(adunion|display|dpmobile|midas)\/\w+\.(gif|jpg|jpg\.webp)$ url reject
+#^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
+#^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp url reject
+# ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture url reject
+# ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) url reject
+
+# 美图
+^https:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mtxx.js
+
+# N
+# ---(NetEase)---
+# > NetEase MailMaster - appconf.mail.163.com
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/ url reject
+# > NetEase CloudMusic - interface*.music.163.com
+^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ url reject
+
+# P
+# > Pinduoduo - api.yangkeduo.com,api.pinduoduo.com
+^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash url reject
+
+# S
+# > Weibo - api.weibo.*, *.api.weibo.*, mapi.weibo.*, *.uve.weibo.com, new.vip.weibo.cn, boot.biz.weibo.com
+# > 微博_未登陆状态下首页信息流处理@ddgksf2013
+^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeline|timeline) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博_每日一次的开屏广告请求@ddgksf2013
+^https?:\/\/boot.*weibo\.com\/v\d\/ad\/realtime url reject-200
+# > 微博_视频信息处理@ddgksf2013
+^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博_去除底部超话栏表层浮icon及tips@ddgksf2013
+^https?:\/\/api\.weibo\.cn\/\d\/!\/huati\/discovery_home_bottom_getdotinfo url reject-dict
+# > 微博_屏蔽首页左上角每日的弹窗tips@ddgksf2013
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d/push/daily url reject-dict
+# > 微博_屏蔽发现页面搜索框热词@ddgksf2013
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/\w{5}\/cardlist url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博_应用内弹窗广告@ddgksf2013
+^https?:\/\/(preload-click|preload-impression)\.uve\.weibo\.com\/(interface\/wbpullad\/wbpullad_click\.php|wbapplua\/get_wbpullad_log\.lua) url reject
+# > 微博_屏蔽sdkconfig请求@ddgksf2013
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkconfig\.php url reject
+# > 微博_Spotlight@ddgksf2013
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/hot\/hours_spotlight url reject-dict
+# > 微博_自定义tab皮肤@zmqcherish
+#^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博_非会员设置tab皮肤@zmqcherish
+#^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博_去广告以及去除各部分推广模块@zmqcherish,@ddgksf2013
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博国际版_屏蔽hotsearch@ddgksf2013
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users url reject-dict
+# > 微博国际版_屏蔽热推荐@ddgksf2013
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? url reject-dict
+# > 微博国际版_屏蔽searching_info@shiro
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info url echo-response text/html echo-response https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo_search_info.json
+# > 微博国际版_屏蔽search_topic@shiro
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic url echo-response text/html echo-response https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo_search_topic.json
+# > 微博国际版_屏蔽开屏广告@ddgksf2013 
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博国际版_屏蔽sdkad@ddgksf2013
+^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博国际版_趋势顶部Card去广告@ddgksf2013
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博国际版_屏蔽用户VIP栏@ddgksf2013
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+# > 微博国际版_热搜处理@ddgksf2013
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Weibo/weibo.min.js
+
+
+# > SMZDM - ap*.smzdm.com
+# ^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading url reject
+# ^https?:\/\/app-api\.smzdm\.com\/util\/loading url reject
+# ^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php url reject
+# > SF Express - ccsp-egmas.sf-express.com,shopic.sf-express.com
+# ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ url reject
+# ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen url reject
+
+# T
+# ---(Tencent)---
+# > FUTU - api*.futunn.com
+# ^https?:\/\/api\.futunn\.com\/v\d\/ad\/ url reject
+# ^https?:\/\/api\d\.futunn\.com\/ad\/ url reject
+# > Tencent Game - ssl.kohsocialapp.qq.com
+# ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons url reject
+# ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info url reject
+# > Tencent Map - 4gimg.map.qq.com
+^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ url reject
+# > Tencent Video - vv.video.qq.com
+# ^https?:\/\/vv\.video\.qq\.com\/getvmind\? url reject
+# (?i)\btc\.qq\.com\/[\w\/\.-]+[a-z]\d+\.mp4\? url reject
+# > Tencent News - r.inews.qq.com
+# ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) url reject
+# > Tencent Sports - news.ssp.qq.com
+# ^https?:\/\/news\.ssp\.qq\.com\/app url reject
+
+# U
+# > Umeng - msg.umengcloud.com
+^https:\/\/msg\.umengcloud\.com\/admsg\/ url reject
+
+# X
+# > Ximalaya FM
+^https?:\/\/.+?\/api\/v\d\/adRealTime url reject
+^https?:\/\/.+?\/(outadservice|ting\/preload)\/ url reject
+# > Xueqiu - api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.175.228
+^https?:\/\/.+?\/promotion\/(display_cache|display_ad|feed_display|search_ad) url reject
+^https?:\/\/(api|promo)\.xueqiu\.com\/promotion\/(display_cache|display_ad|feed_display|search_ad) url reject
+^https?:\/\/.+?\/brand\/search\/v1\.json url reject
+^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json url reject
+^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query.json url reject
+# > Xiaohongshu - www.xiaohongshu.com
+# > 小红书_开屏广告@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/LittleRedBook/LittleRedBook.min.js
+# > 小红书_首页瀑布流@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/LittleRedBook/LittleRedBook.min.js
+# > 小红书_启动处理@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/LittleRedBook/LittleRedBook.min.js
+# > 小红书_热搜发现@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/LittleRedBook/LittleRedBook.min.js
+# > 小红书_默认填词@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hint url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/LittleRedBook/LittleRedBook.min.js
+# > 小红书_去除购物@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\/categories url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/LittleRedBook/LittleRedBook.min.js
+# > 小红书_猜你想搜@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trending url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/LittleRedBook/LittleRedBook.min.js
+# > 小红书_通用广告请求@ddgksf2013
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/(tag\/)?ads url reject-dict
+# > 小红书_隐私屏蔽@ddgksf2013
+^https?:\/\/referee\.xiaohongshu\.com\/v\d\/stateReport url reject-dict
+# > 小红书_Switches@ddgksf2013
+^https?:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches url reject-dict
+# > 小红书_青少年请求@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status url reject-dict
+# > 小红书_启动引导@ddgksf2013
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/home_guide url reject-dict
+
+# > Zhihu - www.zhihu.com,api.zhihu.com,103.41.167.*
+^https?:\/\/api\.zhihu\.com\/fringe\/ad url reject
+https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) url reject-200
+# 拦截DNS解析
+^https?:\/\/118\.89\.204\.198 url reject-dict
+^https?:\/\/103\.41\.167\.237 url reject-dict
+^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 url reject-200
+
+# 屏蔽下发的配置，如皮肤等
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject
+
+# 屏蔽我的页面开通会员的卡片
+^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card url reject
+
+# 拦截开屏广告
+^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
+^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? url reject-dict
+
+# 拦截品牌提问广告
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
+
+# 去除底部标签页关注人角标
+^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 url reject-dict
+
+# 去除消息通知角标
+^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) url reject-dict
+
+# 拦截回答下的卡片广告
+^https?:\/\/www\.zhihu\.com\/api\/v\d\/answers\/\d+\/recommendations url reject-dict
+
+# 拦截应用内弹窗
+^https?:\/\/api\.zhihu\.com\/me\/guides url reject-dict
+
+# 去除关注页最常访问
+^https?:\/\/api\.zhihu\.com\/moments\/recent url reject-dict
+
+# 拦截推荐页顶部广告
+^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config url reject-dict
+
+# 底栏加号的广告
+^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings url reject-dict
+
+# 推荐页搜索栏左侧图标
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading url reject-dict
+
+# 疑似推荐页内容更新红点
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config url reject-dict
+
+# 暂不清楚作用
+^https?:\/\/api\.zhihu\.com\/commercial_api\/banners_v3\/app_topstory_banner url reject-dict
+^https?:\/\/api\.zhihu\.com\/ad-style-service\/request url reject
+
+# 获取用户信息 - 隔离用户数据，开启本地会员等
+^https?:\/\/api\.zhihu\.com\/people\/ url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 关键词屏蔽 - 解锁本地的关键词屏蔽功能，需要开启本地VIP
+^https?:\/\/api\.zhihu\.com\/feed-root\/block url script-analyze-echo-response https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 优化软件配置 - 优化下发的配置文件来实现某些效果
+^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config url script-analyze-echo-response https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 用户信息 - 修改用户盐值
+#^https?:\/\/api\.zhihu\.com\/user-credit\/basis url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 关注页 - 内容优化及屏蔽转发的黑名单用户想法
+^https?:\/\/api\.zhihu\.com\/moments_v3\? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 推荐页 - 移除黑名单用户发布的文章、去除广告，及自定义一些屏蔽项目
+^https:\/\/api\.zhihu\.com\/topstory\/recommend url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 黑名单页 - 同步黑名单数据
+^https?:\/\/api\.zhihu\.com\/settings\/blocked_users url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 问题的回答列表 - 移除黑名单用户的回答、去除广告
+^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+ url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 回答信息流 - 移除黑名单用户的回答、去除广告
+^https?:\/\/api\.zhihu\.com\/next-data url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 回答页底部评论摘要 - 移除黑名单用户发表的评论
+^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 评论页及子页面 - 去除黑名单用户发表的评论
+^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 消息页 - 折叠官方消息、屏蔽营销消息
+^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 回答页 - 内容优化，付费、营销、推广内容文首提醒
+^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 回答页 - 屏蔽下翻出现的黑名单用户的回答
+^https?:\/\/api\.zhihu\.com\/next\? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 文章页 - 去除底部广告
+^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation\? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 热榜页 - 去除广告
+^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
+
+# 搜索页 - 去除预置广告
+^https?:\/\/api\.zhihu\.com\/search\/preset_words\? url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Zhihu/Zhihu.min.js
