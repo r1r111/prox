@@ -51,6 +51,7 @@ host-suffix,geetest.com,DIRECT
 
 host-suffix,cmbchina.com,DIRECT
 host-suffix,cmbimg.com,DIRECT
+HOST-SUFFIX,xueqiu.com,DIRECT
 host-suffix,douban.com,DIRECT
 host-suffix,linkedin.com,DIRECT
 host-suffix,meituan.com,DIRECT
@@ -68,6 +69,7 @@ host-suffix,alibaba.com,DIRECT
 host-suffix,alicdn.com,DIRECT
 host-suffix,alikunlun.com,DIRECT
 host-suffix,alipay.com,DIRECT
+HOST-SUFFIX,alipay.cn,DIRECT
 host-suffix,amap.com,DIRECT
 host-suffix,autonavi.com,DIRECT
 host-suffix,dingtalk.com,DIRECT
