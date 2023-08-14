@@ -4,8 +4,7 @@
   "author": "@r1r111",
   "icon": "https://avatars.githubusercontent.com/u/49260609",
   "repo": "https://github.com/xiaomaoJT/QxScript",
-
-
+  "apps": [
     {
       "id": "blackmatrix7.zheye",
       "name": "哲也同学",
