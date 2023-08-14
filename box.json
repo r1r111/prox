@@ -1,7 +1,9 @@
 {
   "id": "XiaoMao.app.sub",
   "name": "XiaoMao辅助脚本订阅",
-  "apps": [
+  "author": "@XiaoMao",
+  "icon": "https://avatars.githubusercontent.com/u/49260609",
+  "repo": "https://github.com/xiaomaoJT/QxScript",
 
 
     {
