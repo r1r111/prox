@@ -160,20 +160,20 @@ DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,msn.com,PROXY
 
 # > TikTok
-HOST,p16-tiktokcdn-com.akamaized.net,PROXY
-HOST-SUFFIX,byteoversea.com,PROXY
-HOST-SUFFIX,ibytedtos.com,PROXY
-HOST-SUFFIX,ibyteimg.com,PROXY
-HOST-SUFFIX,ipstatp.com,PROXY
-HOST-SUFFIX,isnssdk.com,PROXY
-HOST-SUFFIX,muscdn.com,PROXY
-HOST-SUFFIX,musical.ly,PROXY
-HOST-SUFFIX,sgpstatp.com,PROXY
-HOST-SUFFIX,snssdk.com,PROXY
-HOST-SUFFIX,tik-tokapi.com,PROXY
-HOST-SUFFIX,tiktok.com,PROXY
-HOST-SUFFIX,tiktokcdn.com,PROXY
-HOST-SUFFIX,tiktokv.com,PROXY
-HOST-KEYWORD,musical.ly,PROXY
-HOST-KEYWORD,tiktok,PROXY
-USER-AGENT,TikTok*,PROXY
+# HOST,p16-tiktokcdn-com.akamaized.net,PROXY
+# HOST-SUFFIX,byteoversea.com,PROXY
+# HOST-SUFFIX,ibytedtos.com,PROXY
+# HOST-SUFFIX,ibyteimg.com,PROXY
+# HOST-SUFFIX,ipstatp.com,PROXY
+# HOST-SUFFIX,isnssdk.com,PROXY
+# HOST-SUFFIX,muscdn.com,PROXY
+# HOST-SUFFIX,musical.ly,PROXY
+# HOST-SUFFIX,sgpstatp.com,PROXY
+# HOST-SUFFIX,snssdk.com,PROXY
+# HOST-SUFFIX,tik-tokapi.com,PROXY
+# HOST-SUFFIX,tiktok.com,PROXY
+# HOST-SUFFIX,tiktokcdn.com,PROXY
+# HOST-SUFFIX,tiktokv.com,PROXY
+# HOST-KEYWORD,musical.ly,PROXY
+# HOST-KEYWORD,tiktok,PROXY
+# USER-AGENT,TikTok*,PROXY
