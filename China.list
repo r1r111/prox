@@ -1,5 +1,4 @@
 # 常用UA
-user-agent,%E5%8D%B3%E5%88%BB*,DIRECT
 user-agent,WeChat*,DIRECT
 # 12306
 host-suffix,ad.12306.cn,DIRECT
