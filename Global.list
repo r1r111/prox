@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,poe.com,PROXY
 DOMAIN-SUFFIX,mega.nz,PROXY
 # > Quora
 DOMAIN-SUFFIX,quora.com,PROXY
-DOMAIN-SUFFIX,quoracdn.net,
+DOMAIN-SUFFIX,quoracdn.net,PROXY
 # > Alphabet
 DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,admob.com,PROXY
