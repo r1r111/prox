@@ -1,26 +1,39 @@
-# > YouTube
-USER-AGENT,com.google.ios.youtube*,PROXY
-USER-AGENT,YouTube*,PROXY
-DOMAIN-SUFFIX,googlevideo.com,PROXY
-DOMAIN-SUFFIX,withyoutube.com,PROXY
-DOMAIN-SUFFIX,youtu.be,PROXY
-DOMAIN-SUFFIX,youtube.com,PROXY
-DOMAIN-SUFFIX,youtubeeducation.com,PROXY
-DOMAIN-SUFFIX,youtubegaming.com,PROXY
-DOMAIN-SUFFIX,youtubekids.com,PROXY
-DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
-DOMAIN-SUFFIX,yt.be,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
-DOMAIN,youtubei.googleapis.com,PROXY
-DOMAIN,yt3.ggpht.com,PROXY
-# Other
-DOMAIN-SUFFIX,feedly.com,PROXY
-DOMAIN-SUFFIX,medium.com,PROXY
-DOMAIN-SUFFIX,quora.com,PROXY
-DOMAIN-SUFFIX,quoracdn.net,PROXY
-DOMAIN-SUFFIX,wikimapia.org,PROXY
-DOMAIN-SUFFIX,z-lib.org,PROXY
+# > Twitter
+DOMAIN-SUFFIX,periscope.tv,PROXY
+DOMAIN-SUFFIX,pscp.tv,PROXY
+DOMAIN-SUFFIX,t.co,PROXY
+DOMAIN-SUFFIX,tweetdeck.com,PROXY
+DOMAIN-SUFFIX,twimg.co,PROXY
+DOMAIN-SUFFIX,twimg.com,PROXY
+DOMAIN-SUFFIX,twitpic.com,PROXY
+DOMAIN-SUFFIX,twitter.com,PROXY
+DOMAIN-SUFFIX,twitter.jp,PROXY
+DOMAIN-SUFFIX,vine.co,PROXY
 
+# ---(Apple)---
+DOMAIN-SUFFIX,appsto.re,PROXY
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
+DOMAIN,amp-api.podcasts.apple.com,PROXY
+DOMAIN,beta.music.apple.com,PROXY
+DOMAIN,books.itunes.apple.com,PROXY
+DOMAIN,lookup-api.apple.com,PROXY
+DOMAIN,radio.itunes.apple.com,PROXY
+# > Web Preview
+DOMAIN,apps.apple.com,PROXY
+DOMAIN,books.apple.com,PROXY
+DOMAIN,itunes.apple.com,PROXY
+DOMAIN,tv.apple.com,PROXY
+# > News
+DOMAIN,gateway.icloud.com,PROXY
+# > Firefox
+DOMAIN-SUFFIX,services.mozilla.com,PROXY
+# > Poe
+DOMAIN-SUFFIX,poe.com,PROXY
+# > Mega
+DOMAIN-SUFFIX,mega.nz,PROXY
+# > Quora
+DOMAIN-SUFFIX,quora.com,PROXY
+DOMAIN-SUFFIX,quoracdn.net,
 # > Alphabet
 DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,admob.com,PROXY
@@ -66,24 +79,6 @@ DOMAIN-SUFFIX,zynamics.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,.blogspot.,PROXY
 DOMAIN-SUFFIX,goog,PROXY
-
-DOMAIN-SUFFIX,wordpress.com,PROXY
-# > Discord
-DOMAIN-SUFFIX,discord.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,discordapp.net,PROXY
-# > Microsoft github
-DOMAIN-SUFFIX,github.blog,PROXY
-DOMAIN-SUFFIX,github.com,PROXY
-DOMAIN-SUFFIX,github.io,PROXY
-DOMAIN-SUFFIX,githubassets.com,PROXY
-DOMAIN-SUFFIX,githubusercontent.com,PROXY
-DOMAIN-SUFFIX,onedrive.live.com,PROXY
-# > Reddit
-DOMAIN-SUFFIX,redd.it,PROXY
-DOMAIN-SUFFIX,reddit.com,PROXY
-DOMAIN-SUFFIX,redditmedia.com,PROXY
-DOMAIN-SUFFIX,redditstatic.com,PROXY
 # > Telegram
 DOMAIN-SUFFIX,legra.ph,PROXY
 DOMAIN-SUFFIX,t.me,PROXY
@@ -106,17 +101,22 @@ IP6-CIDR,2001:b28:f23f::/48,PROXY
 IP6-CIDR,2001:67c:4e8::/48,PROXY
 IP6-CIDR,2001:b28:f23c::/48,PROXY
 IP6-CIDR,2a0a:f280::/32,PROXY
-# > Twitter
-DOMAIN-SUFFIX,periscope.tv,PROXY
-DOMAIN-SUFFIX,pscp.tv,PROXY
-DOMAIN-SUFFIX,t.co,PROXY
-DOMAIN-SUFFIX,tweetdeck.com,PROXY
-DOMAIN-SUFFIX,twimg.co,PROXY
-DOMAIN-SUFFIX,twimg.com,PROXY
-DOMAIN-SUFFIX,twitpic.com,PROXY
-DOMAIN-SUFFIX,twitter.com,PROXY
-DOMAIN-SUFFIX,twitter.jp,PROXY
-DOMAIN-SUFFIX,vine.co,PROXY
+# > Discord
+DOMAIN-SUFFIX,discord.com,PROXY
+DOMAIN-SUFFIX,discordapp.com,PROXY
+DOMAIN-SUFFIX,discordapp.net,PROXY
+# > Microsoft github
+DOMAIN-SUFFIX,github.blog,PROXY
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,github.io,PROXY
+DOMAIN-SUFFIX,githubassets.com,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
+DOMAIN-SUFFIX,onedrive.live.com,PROXY
+# > Reddit
+DOMAIN-SUFFIX,redd.it,PROXY
+DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redditmedia.com,PROXY
+DOMAIN-SUFFIX,redditstatic.com,PROXY
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,mediawiki.org,PROXY
 DOMAIN-SUFFIX,wikibooks.org,PROXY
@@ -131,28 +131,25 @@ DOMAIN-SUFFIX,wikisource.org,PROXY
 DOMAIN-SUFFIX,wikiversity.org,PROXY
 DOMAIN-SUFFIX,wikivoyage.org,PROXY
 DOMAIN-SUFFIX,wiktionary.org,PROXY
-
-# ---(Apple)---
-DOMAIN-SUFFIX,appsto.re,PROXY
-DOMAIN-SUFFIX,smoot.apple.com,PROXY
-DOMAIN,amp-api.podcasts.apple.com,PROXY
-DOMAIN,beta.music.apple.com,PROXY
-DOMAIN,books.itunes.apple.com,PROXY
-DOMAIN,lookup-api.apple.com,PROXY
-DOMAIN,radio.itunes.apple.com,PROXY
-# > Web Preview
-DOMAIN,apps.apple.com,PROXY
-DOMAIN,books.apple.com,PROXY
-DOMAIN,itunes.apple.com,PROXY
-DOMAIN,tv.apple.com,PROXY
-# > News
-DOMAIN,gateway.icloud.com,PROXY
-# ------
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,PROXY
+USER-AGENT,YouTube*,PROXY
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,withyoutube.com,PROXY
+DOMAIN-SUFFIX,youtu.be,PROXY
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,youtubeeducation.com,PROXY
+DOMAIN-SUFFIX,youtubegaming.com,PROXY
+DOMAIN-SUFFIX,youtubekids.com,PROXY
+DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
+DOMAIN-SUFFIX,yt.be,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+DOMAIN,youtubei.googleapis.com,PROXY
+DOMAIN,yt3.ggpht.com,PROXY
+# Other
+DOMAIN-SUFFIX,feedly.com,PROXY
+DOMAIN-SUFFIX,medium.com,PROXY
+DOMAIN-SUFFIX,wordpress.com,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,msn.com,PROXY
-# > Firefox
-DOMAIN-SUFFIX,services.mozilla.com,PROXY
-
-# > Poe
-DOMAIN-SUFFIX,poe.com,PROXY
