@@ -1,12 +1,30 @@
 # Advertising
-# > Google
-host-suffix,doubleclick.net,REJECT
-host-suffix,googleadservices.com,REJECT
-host-suffix,googleadsserving.cn,REJECT
-host-suffix,googlesyndication.com,REJECT
-host-suffix,googletagservices.com,REJECT
-host-suffix,www.google-analytics.com,REJECT
-host-suffix,ads.youtube.com,REJECT
+# > 微博
+host-suffix,adimg.uve.weibo.com,REJECT
+host-suffix,sdkapp.uve.weibo.com,REJECT
+# > 谷歌
+HOST-SUFFIX,google-analytics.com, reject
+HOST,safebrowsing.googleapis.com, reject
+HOST-SUFFIX,doubleclick.net, reject
+HOST-SUFFIX,googleadservices.com, reject
+HOST-SUFFIX,googleadsserving.cn, reject
+HOST-SUFFIX,googlesyndication.com, reject
+HOST-SUFFIX,googletagservices.com, reject
+HOST-SUFFIX,googletagmanager.com, reject
+HOST-SUFFIX,video-ad-stats.googlesyndication.com, reject
+HOST-SUFFIX,tpc.googlesyndication.com, reject
+HOST-SUFFIX,pagead.google.com, reject
+HOST-SUFFIX,pagead.l.google.com, reject
+HOST-SUFFIX,pagead2.googlesyndication.com, reject
+HOST-SUFFIX,pagead-tpc.l.google.com, reject
+HOST-SUFFIX,mobileads.google.com, reject
+HOST-SUFFIX,googlecommerce.com, reject
+HOST-SUFFIX,blaaaa12.googlecode.com, reject
+HOST-SUFFIX,badad.googleplex.com, reject
+HOST-SUFFIX,afs.googlesyndication.com, reject
+HOST-SUFFIX,afd.l.google.com, reject
+HOST-SUFFIX,www.googleadservices.com, reject
+HOST-SUFFIX,www.google-analytics.com, reject
 
 # Tencent
 host-suffix,e.qq.com,REJECT
@@ -58,9 +76,6 @@ host-suffix, ad.caiyunapp.com, REJECT
 # > 美团
 host, flowplus.meituan.net, REJECT
 host-suffix, analytics.meituan.net, REJECT
-host-suffix, meituan.xn--io0a7i, REJECT
-host-suffix, meituan.yoga, REJECT
-host-suffix, meituangov.cn, REJECT
 host-suffix, report.meituan.com, REJECT
 host-suffix, wmlog.meituan.com, REJECT
 
