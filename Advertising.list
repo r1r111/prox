@@ -2,6 +2,22 @@
 # > 微博
 host-suffix,adimg.uve.weibo.com,REJECT
 host-suffix,sdkapp.uve.weibo.com,REJECT
+
+# Tencent
+host-suffix,e.qq.com,REJECT
+host-suffix,gdt.qq.com,REJECT
+host-suffix,l.qq.com,REJECT
+host-suffix,adsmind.apdcdn.tc.qq.com,REJECT
+host-suffix,adsmind.gdtimg.com,REJECT
+host-suffix,adsmind.tc.qq.com,REJECT
+host-suffix,pgdt.gtimg.cn,REJECT
+host-suffix,pgdt.gtimg.com,REJECT
+host-suffix,pgdt.ugdtimg.com,REJECT
+host-suffix,splashqqlive.gtimg.com,REJECT
+host-suffix,wa.gtimg.com,REJECT
+host-suffix,wxsnsdy.wxs.qq.com,REJECT
+host-suffix,wxsnsdythumb.wxs.qq.com,REJECT
+
 # > 谷歌
 HOST-SUFFIX,google-analytics.com, reject
 HOST,safebrowsing.googleapis.com, reject
@@ -26,27 +42,6 @@ HOST-SUFFIX,afd.l.google.com, reject
 HOST-SUFFIX,www.googleadservices.com, reject
 HOST-SUFFIX,www.google-analytics.com, reject
 
-# Tencent
-host-suffix,e.qq.com,REJECT
-host-suffix,gdt.qq.com,REJECT
-host-suffix,l.qq.com,REJECT
-host-suffix,adsmind.apdcdn.tc.qq.com,REJECT
-host-suffix,adsmind.gdtimg.com,REJECT
-host-suffix,adsmind.tc.qq.com,REJECT
-host-suffix,pgdt.gtimg.cn,REJECT
-host-suffix,pgdt.gtimg.com,REJECT
-host-suffix,pgdt.ugdtimg.com,REJECT
-host-suffix,splashqqlive.gtimg.com,REJECT
-host-suffix,wa.gtimg.com,REJECT
-host-suffix,wxsnsdy.wxs.qq.com,REJECT
-host-suffix,wxsnsdythumb.wxs.qq.com,REJECT
-
-# > 小红书
-host, ads-img-qc.xhscdn.com, REJECT
-host, ads-video-al.xhscdn.com, REJECT
-host, ads-video-qc.xhscdn.com, REJECT
-host, t-ads.xiaohongshu.com, REJECT
-
 # > Zhihu
 USER-AGENT,AVOS*, REJECT
 host, appcloud.zhihu.com, REJECT
@@ -70,14 +65,18 @@ host-suffix,syndication-o.twitter.com,REJECT
 host-suffix,urls.api.twitter.com,REJECT
 host-suffix,ads-api.twitter.com,REJECT
 
+# Poe
+host-suffix,crashlytics.com,REJECT
+host-suffix,singular.net,REJECT
+
+# > 小红书
+host, ads-img-qc.xhscdn.com, REJECT
+host, ads-video-al.xhscdn.com, REJECT
+host, ads-video-qc.xhscdn.com, REJECT
+host, t-ads.xiaohongshu.com, REJECT
+
 # > caiyun
 host-suffix, ad.caiyunapp.com, REJECT
-
-# > 美团
-host, flowplus.meituan.net, REJECT
-host-suffix, analytics.meituan.net, REJECT
-host-suffix, report.meituan.com, REJECT
-host-suffix, wmlog.meituan.com, REJECT
 
 # > 京东
 host-suffix, jzt.jd.com, REJECT
@@ -124,3 +123,9 @@ host-suffix, click.tz.simba.taobao.com, REJECT
 host-suffix, stat.simba.taobao.com, REJECT
 host-suffix, m-adash.m.taobao.com, REJECT
 host-suffix, adashbc.m.taobao.com, REJECT
+
+# > 美团
+host, flowplus.meituan.net, REJECT
+host-suffix, analytics.meituan.net, REJECT
+host-suffix, report.meituan.com, REJECT
+host-suffix, wmlog.meituan.com, REJECT
