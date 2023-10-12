@@ -1,91 +1,98 @@
-# Advertising
-# (A)
-# > Apple
-#DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+# 常用UA
+user-agent,WeChat*,DIRECT
+# 12306
+host-suffix,ad.12306.cn,DIRECT
+# 新浪
+# > Weibo
+host-suffix,weibo.com,DIRECT
+host-suffix,weibo.cn,DIRECT
+# > Weibo ADs
+host,boot.biz.weibo.com,reject
+# > Weibo Api
+host-suffix,api.weibo.cn,DIRECT
+host-suffix,api.weibo.com,DIRECT
+host-suffix,dns.weibo.cn,DIRECT
+# > Weibo CDN
+host-suffix,weibocdn.com,DIRECT
+# > Weibo Client & SDK
+host-suffix,wbapp.mobile.sina.cn,reject
+host-suffix,sdkapp.mobile.sina.cn,reject
+host,sdkapp.uve.weibo.com, DIRECT
+# > Weibo Img
+host-suffix,sinajs.cn,DIRECT
+host-suffix,vip.storage.weibo.com,DIRECT
+host-suffix,simg.s.weibo.com,DIRECT
+host-suffix,sinaimg.cn,DIRECT
+host-suffix,sinaimg.com,DIRECT
+host-suffix,miaozhen.com,DIRECT
+host-suffix,data.kuiniuca.com,DIRECT
+# > Weibo Live
+host-suffix,live.weibo.com,DIRECT
 
-# (B)
-# --- (Baidu) ---
-#DOMAIN-SUFFIX,duapps.com,REJECT
-#DOMAIN-SUFFIX,cpro.baidu.com,REJECT
-#DOMAIN-SUFFIX,pos.baidu.com,REJECT
-#DOMAIN,afd.baidu.com,REJECT
-#DOMAIN,als.baidu.com,REJECT
-#DOMAIN,duclick.baidu.com,REJECT
-#DOMAIN,mobads.baidu.com,REJECT
-#DOMAIN,mobads-logs.baidu.com,REJECT
-#DOMAIN,nadvideo2.baidu.com,REJECT
-#DOMAIN,nsclick.baidu.com,REJECT
-#DOMAIN,hm.baidu.com,REJECT
+# 其他常用网站直联
+host-suffix,zhihu.com,DIRECT
+host-suffix,zhimg.com,DIRECT
+host-suffix,geetest.com,DIRECT
 
-# (G)
-# > Google
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,googleadservices.com,REJECT
-DOMAIN-SUFFIX,googleadsserving.cn,REJECT
-DOMAIN-SUFFIX,googlesyndication.com,REJECT
-DOMAIN-SUFFIX,googletagservices.com,REJECT
-DOMAIN,www.google-analytics.com,REJECT
-DOMAIN,ads.youtube.com,REJECT
+host-suffix,cmbchina.com,DIRECT
+host-suffix,cmbimg.com,DIRECT
+HOST-SUFFIX,xueqiu.com,DIRECT
+host-suffix,douban.com,DIRECT
+host-suffix,linkedin.com,DIRECT
+host-suffix,meituan.com,DIRECT
+host-suffix,meituan.net,DIRECT
+host-suffix,smzdm.com,DIRECT
+host-suffix,ximalaya.com,DIRECT
+host-suffix,xmcdn.com,DIRECT
+host-suffix,yangkeduo.com,DIRECT
+host-suffix,360buy.com,DIRECT
+host-suffix,sf-express.com,DIRECT
 
-# > Sina
-#DOMAIN-SUFFIX,alitui.weibo.com,REJECT
-#DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
-#DOMAIN,adimg.uve.weibo.com,REJECT
-#DOMAIN,adimg.vue.weibo.com,REJECT
-#DOMAIN,u1.img.mobile.sina.cn,REJECT
-#DOMAIN,sax.sina.com.cn,REJECT
-#DOMAIN,saxs.sina.com.cn,REJECT
-#DOMAIN,saxn.sina.com.cn,REJECT
 
-# --- (Tencent) ---
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
-DOMAIN,adsmind.gdtimg.com,REJECT
-DOMAIN,adsmind.tc.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pgdt.gtimg.com,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,splashqqlive.gtimg.com,REJECT
-DOMAIN,wa.gtimg.com,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+# 腾讯
+user-agent,MicroMessenger%20Client,DIRECT
+host-suffix,gtimg.com,DIRECT
+host-suffix,idqqimg.com,DIRECT
+host-suffix,igamecj.com,DIRECT
+host-suffix,myapp.com,DIRECT
+host-suffix,myqcloud.com,DIRECT
+host-suffix,qq.com,DIRECT
+host-suffix,tencent.com,DIRECT
+host-suffix,tencent-cloud.net,DIRECT
+# 阿里
+user-agent,%E4%BC%98%E9%85%B7*,DIRECT
+host-suffix,alibaba.com,DIRECT
+host-suffix,alicdn.com,DIRECT
+host-suffix,alikunlun.com,DIRECT
+host-suffix,alipay.com,DIRECT
+HOST-SUFFIX,alipay.cn,DIRECT
+host-suffix,amap.com,DIRECT
+host-suffix,autonavi.com,DIRECT
+host-suffix,dingtalk.com,DIRECT
+host-suffix,mxhichina.com,DIRECT
+host-suffix,soku.com,DIRECT
+host-suffix,taobao.com,DIRECT
+host-suffix,tmall.com,DIRECT
+host-suffix,tmall.hk,DIRECT
+host-suffix,ykimg.com,DIRECT
+host-suffix,youku.com,DIRECT
+host-suffix,alipayobjects.com,DIRECT
+host-suffix,aliyun.com,DIRECT
+# 京东
+host-suffix,jd.com,DIRECT
+host-suffix,jd.hk,DIRECT
+host-suffix,jdpay.com,DIRECT
+host-suffix,360buyimg.com,DIRECT
+# 滴滴
+host-suffix,didialift.com,DIRECT
+host-suffix,didiglobal.com,DIRECT
+host-suffix,udache.com,DIRECT
+# 百度
+host-suffix,baidu.com,DIRECT
+host-suffix,bdimg.com,DIRECT
+host-suffix,baidubcr.com,DIRECT
+host-suffix,bdstatic.com,DIRECT
+host-suffix,yunjiasu-cdn.net,DIRECT
 
-# > Ximalaya
-#DOMAIN,ad.ximalaya.com,REJECT
-#DOMAIN,adbs.ximalaya.com,REJECT
-#DOMAIN,adse.ximalaya.com,REJECT
-#DOMAIN,adse.wsa.ximalaya.com,REJECT
-#DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
-#DOMAIN,adbehavior.ximalaya.com,REJECT
-#DOMAIN,adsebs.ximalaya.com,REJECT
-# > Xiaohongshu
-#DOMAIN,ads-img-qc.xhscdn.com,REJECT
-#DOMAIN,ads-video-al.xhscdn.com,REJECT
-#DOMAIN,ads-video-qc.xhscdn.com,REJECT
-#DOMAIN,t-ads.xiaohongshu.com,REJECT
-
-# (Z)
-# > Zhihu
-#USER-AGENT,AVOS*,REJECT
-#DOMAIN,appcloud2.in.zhihu.com,REJECT
-#DOMAIN,mqtt.zhihu.com,REJECT
-#DOMAIN,sugar.zhihu.com,REJECT
-#DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
-#DOMAIN,118.89.204.198,REJECT
-#IP-CIDR,118.89.204.198/32,REJECT
-#IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
-
-# > Twitter
-# DOMAIN-SUFFIX,static.ads-twitter.com,REJECT
-# DOMAIN-SUFFIX,analytics.twitter.com,REJECT
-# DOMAIN-SUFFIX,search.twitter.com,REJECT
-# DOMAIN-SUFFIX,syndication.twitter.com,REJECT
-# DOMAIN-SUFFIX,ads.twitter.com,REJECT
-# DOMAIN-SUFFIX,p.twitter.com,REJECT
-# DOMAIN-SUFFIX,scribe.twitter.com,REJECT
-# DOMAIN-SUFFIX,syndication-o.twitter.com,REJECT
-# DOMAIN-SUFFIX,urls.api.twitter.com,REJECT
-# DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
-
+# GeoIP CN段 直联
+GEOIP,CN,DIRECT
