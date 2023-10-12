@@ -1,98 +1,111 @@
-# 常用UA
-user-agent,WeChat*,DIRECT
-# 12306
-host-suffix,ad.12306.cn,DIRECT
-# 新浪
-# > Weibo
-host-suffix,weibo.com,DIRECT
-host-suffix,weibo.cn,DIRECT
-# > Weibo ADs
-host,boot.biz.weibo.com,reject
-# > Weibo Api
-host-suffix,api.weibo.cn,DIRECT
-host-suffix,api.weibo.com,DIRECT
-host-suffix,dns.weibo.cn,DIRECT
-# > Weibo CDN
-host-suffix,weibocdn.com,DIRECT
-# > Weibo Client & SDK
-host-suffix,wbapp.mobile.sina.cn,reject
-host-suffix,sdkapp.mobile.sina.cn,reject
-host,sdkapp.uve.weibo.com, DIRECT
-# > Weibo Img
-host-suffix,sinajs.cn,DIRECT
-host-suffix,vip.storage.weibo.com,DIRECT
-host-suffix,simg.s.weibo.com,DIRECT
-host-suffix,sinaimg.cn,DIRECT
-host-suffix,sinaimg.com,DIRECT
-host-suffix,miaozhen.com,DIRECT
-host-suffix,data.kuiniuca.com,DIRECT
-# > Weibo Live
-host-suffix,live.weibo.com,DIRECT
+# Advertising
+# > Google
+host-suffix,doubleclick.net,REJECT
+host-suffix,googleadservices.com,REJECT
+host-suffix,googleadsserving.cn,REJECT
+host-suffix,googlesyndication.com,REJECT
+host-suffix,googletagservices.com,REJECT
+host-suffix,www.google-analytics.com,REJECT
+host-suffix,ads.youtube.com,REJECT
 
-# 其他常用网站直联
-host-suffix,zhihu.com,DIRECT
-host-suffix,zhimg.com,DIRECT
-host-suffix,geetest.com,DIRECT
+# Tencent
+host-suffix,e.qq.com,REJECT
+host-suffix,gdt.qq.com,REJECT
+host-suffix,l.qq.com,REJECT
+host-suffix,adsmind.apdcdn.tc.qq.com,REJECT
+host-suffix,adsmind.gdtimg.com,REJECT
+host-suffix,adsmind.tc.qq.com,REJECT
+host-suffix,pgdt.gtimg.cn,REJECT
+host-suffix,pgdt.gtimg.com,REJECT
+host-suffix,pgdt.ugdtimg.com,REJECT
+host-suffix,splashqqlive.gtimg.com,REJECT
+host-suffix,wa.gtimg.com,REJECT
+host-suffix,wxsnsdy.wxs.qq.com,REJECT
+host-suffix,wxsnsdythumb.wxs.qq.com,REJECT
 
-host-suffix,cmbchina.com,DIRECT
-host-suffix,cmbimg.com,DIRECT
-HOST-SUFFIX,xueqiu.com,DIRECT
-host-suffix,douban.com,DIRECT
-host-suffix,linkedin.com,DIRECT
-host-suffix,meituan.com,DIRECT
-host-suffix,meituan.net,DIRECT
-host-suffix,smzdm.com,DIRECT
-host-suffix,ximalaya.com,DIRECT
-host-suffix,xmcdn.com,DIRECT
-host-suffix,yangkeduo.com,DIRECT
-host-suffix,360buy.com,DIRECT
-host-suffix,sf-express.com,DIRECT
+# > 小红书
+host, ads-img-qc.xhscdn.com, REJECT
+host, ads-video-al.xhscdn.com, REJECT
+host, ads-video-qc.xhscdn.com, REJECT
+host, t-ads.xiaohongshu.com, REJECT
 
+# > Zhihu
+USER-AGENT,AVOS*, REJECT
+host, appcloud.zhihu.com, REJECT
+host, appcloud2.in.zhihu.com, REJECT
+host, mqtt.zhihu.com, REJECT
+host, sugar.zhihu.com, REJECT
+host, crash2.zhihu.com, REJECT
+host, 118.89.204.198, REJECT
+IP-CIDR, 118.89.204.198/32, REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 
-# 腾讯
-user-agent,MicroMessenger%20Client,DIRECT
-host-suffix,gtimg.com,DIRECT
-host-suffix,idqqimg.com,DIRECT
-host-suffix,igamecj.com,DIRECT
-host-suffix,myapp.com,DIRECT
-host-suffix,myqcloud.com,DIRECT
-host-suffix,qq.com,DIRECT
-host-suffix,tencent.com,DIRECT
-host-suffix,tencent-cloud.net,DIRECT
-# 阿里
-user-agent,%E4%BC%98%E9%85%B7*,DIRECT
-host-suffix,alibaba.com,DIRECT
-host-suffix,alicdn.com,DIRECT
-host-suffix,alikunlun.com,DIRECT
-host-suffix,alipay.com,DIRECT
-HOST-SUFFIX,alipay.cn,DIRECT
-host-suffix,amap.com,DIRECT
-host-suffix,autonavi.com,DIRECT
-host-suffix,dingtalk.com,DIRECT
-host-suffix,mxhichina.com,DIRECT
-host-suffix,soku.com,DIRECT
-host-suffix,taobao.com,DIRECT
-host-suffix,tmall.com,DIRECT
-host-suffix,tmall.hk,DIRECT
-host-suffix,ykimg.com,DIRECT
-host-suffix,youku.com,DIRECT
-host-suffix,alipayobjects.com,DIRECT
-host-suffix,aliyun.com,DIRECT
-# 京东
-host-suffix,jd.com,DIRECT
-host-suffix,jd.hk,DIRECT
-host-suffix,jdpay.com,DIRECT
-host-suffix,360buyimg.com,DIRECT
-# 滴滴
-host-suffix,didialift.com,DIRECT
-host-suffix,didiglobal.com,DIRECT
-host-suffix,udache.com,DIRECT
-# 百度
-host-suffix,baidu.com,DIRECT
-host-suffix,bdimg.com,DIRECT
-host-suffix,baidubcr.com,DIRECT
-host-suffix,bdstatic.com,DIRECT
-host-suffix,yunjiasu-cdn.net,DIRECT
+# > Twitter
+host-suffix,static.ads-twitter.com,REJECT
+host-suffix,analytics.twitter.com,REJECT
+host-suffix,search.twitter.com,REJECT
+host-suffix,syndication.twitter.com,REJECT
+host-suffix,ads.twitter.com,REJECT
+host-suffix,p.twitter.com,REJECT
+host-suffix,scribe.twitter.com,REJECT
+host-suffix,syndication-o.twitter.com,REJECT
+host-suffix,urls.api.twitter.com,REJECT
+host-suffix,ads-api.twitter.com,REJECT
 
-# GeoIP CN段 直联
-GEOIP,CN,DIRECT
+# > caiyun
+host-suffix, ad.caiyunapp.com, REJECT
+
+# > 美团
+host, flowplus.meituan.net, REJECT
+host-suffix, analytics.meituan.net, REJECT
+host-suffix, meituan.xn--io0a7i, REJECT
+host-suffix, meituan.yoga, REJECT
+host-suffix, meituangov.cn, REJECT
+host-suffix, report.meituan.com, REJECT
+host-suffix, wmlog.meituan.com, REJECT
+
+# > 京东
+host-suffix, jzt.jd.com, REJECT
+host-suffix, img-x.jd.com, REJECT
+host-suffix, du.jd.com, REJECT
+host-suffix, c-nfa.jd.com, REJECT
+host-suffix, cm.jd.com, REJECT
+host-keyword, policy.jd.com, REJECT
+host-keyword, kepler.jd.com, REJECT
+host-keyword, bdsp.x.jd.com, REJECT
+host-keyword, keplerapi.jd.com, REJECT
+host-keyword, mapi.m.jd.com, REJECT
+
+# > 淘宝
+host-suffix, apoll.m.taobao.com, REJECT
+host-suffix, h-adashx.ut.taobao.com, REJECT
+host-suffix, w.m.taobao.com, REJECT
+;host-suffix, ai.m.taobao.com, REJECT
+host-suffix, re.m.taobao.com, REJECT
+host-suffix, agoodm.m.taobao.com, REJECT
+host-suffix, ai.taobao.com, REJECT
+host-suffix, api.waptest.taobao.com, REJECT
+host-suffix, dsp.simba.taobao.com, REJECT
+host-suffix, fav.simba.taobao.com, REJECT
+host-suffix, m.simba.taobao.com, REJECT
+host-suffix, mclick.simba.taobao.com, REJECT
+host-suffix, re.taobao.com, REJECT
+host-suffix, redirect.simba.taobao.com, REJECT
+host-suffix, simba.m.taobao.com, REJECT
+host-suffix, srd.simba.taobao.com, REJECT
+host-suffix, temai.taobao.com, REJECT
+host-suffix, textlink.simba.taobao.com, REJECT
+host-suffix, unitacs.m.taobao.com, REJECT
+host-suffix, acs4baichuan.m.taobao.com, REJECT
+host-suffix, adashbc.ut.taobao.com, REJECT
+host-suffix, adash-c.ut.taobao.com, REJECT
+host-suffix, adashxgc.ut.taobao.com, REJECT
+host-suffix, adashx4yt.m.taobao.com, REJECT
+host-suffix, tunion-api.m.taobao.com, REJECT
+host-suffix, tns.simba.taobao.com, REJECT
+host-suffix, click.mz.simba.taobao.com, REJECT
+host-suffix, click.simba.taobao.com, REJECT
+host-suffix, click.tz.simba.taobao.com, REJECT
+host-suffix, stat.simba.taobao.com, REJECT
+host-suffix, m-adash.m.taobao.com, REJECT
+host-suffix, adashbc.m.taobao.com, REJECT
