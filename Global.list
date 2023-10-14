@@ -9,22 +9,6 @@ DOMAIN-SUFFIX,twitpic.com,PROXY
 DOMAIN-SUFFIX,twitter.com,PROXY
 DOMAIN-SUFFIX,twitter.jp,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
-
-# ---(Apple)---
-DOMAIN-SUFFIX,appsto.re,PROXY
-DOMAIN-SUFFIX,smoot.apple.com,PROXY
-DOMAIN,amp-api.podcasts.apple.com,PROXY
-DOMAIN,beta.music.apple.com,PROXY
-DOMAIN,books.itunes.apple.com,PROXY
-DOMAIN,lookup-api.apple.com,PROXY
-DOMAIN,radio.itunes.apple.com,PROXY
-# > Web Preview
-DOMAIN,apps.apple.com,PROXY
-DOMAIN,books.apple.com,PROXY
-DOMAIN,itunes.apple.com,PROXY
-DOMAIN,tv.apple.com,PROXY
-# > News
-DOMAIN,gateway.icloud.com,PROXY
 # > Firefox
 DOMAIN-SUFFIX,services.mozilla.com,PROXY
 # > Poe
