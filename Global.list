@@ -1,6 +1,4 @@
 # > Twitter
-DOMAIN-SUFFIX,periscope.tv,PROXY
-DOMAIN-SUFFIX,pscp.tv,PROXY
 DOMAIN-SUFFIX,t.co,PROXY
 DOMAIN-SUFFIX,tweetdeck.com,PROXY
 DOMAIN-SUFFIX,twimg.co,PROXY
@@ -9,12 +7,19 @@ DOMAIN-SUFFIX,twitpic.com,PROXY
 DOMAIN-SUFFIX,twitter.com,PROXY
 DOMAIN-SUFFIX,twitter.jp,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
+HOST-SUFFIX,ads-twitter.com,PROXY
+HOST-SUFFIX,x.com,PROXY
+DOMAIN-SUFFIX,periscope.tv,PROXY
+DOMAIN-SUFFIX,pscp.tv,PROXY
 # > Firefox
 DOMAIN-SUFFIX,services.mozilla.com,PROXY
+HOST-SUFFIX,firefox.com,PROXY
 # > Poe
 DOMAIN-SUFFIX,poe.com,PROXY
 # > Mega
-DOMAIN-SUFFIX,mega.nz,PROXY
+HOST-SUFFIX,mega.co.nz,PROXY
+HOST-SUFFIX,mega.io,PROXY
+HOST-SUFFIX,mega.nz,PROXY
 # > Quora
 DOMAIN-SUFFIX,quora.com,PROXY
 DOMAIN-SUFFIX,quoracdn.net,PROXY
@@ -136,4 +141,3 @@ DOMAIN-SUFFIX,medium.com,PROXY
 DOMAIN-SUFFIX,wordpress.com,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,bing.com,PROXY
-DOMAIN-SUFFIX,msn.com,PROXY
