@@ -1,5 +1,6 @@
 # Advertising
 # > 微博
+host,boot.biz.weibo.com,reject
 host-suffix,adimg.uve.weibo.com,REJECT
 host-suffix,sdkapp.uve.weibo.com,REJECT
 
