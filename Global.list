@@ -14,24 +14,30 @@ DOMAIN-SUFFIX,pscp.tv,PROXY
 # > Firefox
 DOMAIN-SUFFIX,services.mozilla.com,PROXY
 HOST-SUFFIX,firefox.com,PROXY
-# > Poe
-DOMAIN-SUFFIX,poe.com,PROXY
 # > Mega
 HOST-SUFFIX,mega.co.nz,PROXY
 HOST-SUFFIX,mega.io,PROXY
 HOST-SUFFIX,mega.nz,PROXY
-# > Quora
-DOMAIN-SUFFIX,quora.com,PROXY
-DOMAIN-SUFFIX,quoracdn.net,PROXY
+# > OpenAI
+host-suffix,auth0.com,PROXY
+host,challenges.cloudflare.com,PROXY
+
+host-suffix,ai.com,PROXY
+host-suffix,openai.com,PROXY
+host-suffix,sentry.io,PROXY
+host-suffix,intercom.io,PROXY
+host-suffix,identrust.com,PROXY
+
+host-suffix,chat.openai.com.cdn.cloudflare.net,PROXY
+host-suffix,openaiapi-site.azureedge.net,PROXY
+
+host-suffix,poe.com,PROXY
 # > Alphabet
 DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,admob.com,PROXY
 DOMAIN-SUFFIX,adsense.com,PROXY
 DOMAIN-SUFFIX,advertisercommunity.com,PROXY
 DOMAIN-SUFFIX,ampproject.org,PROXY
-DOMAIN-SUFFIX,android.com,PROXY
-DOMAIN-SUFFIX,androidify.com,PROXY
-DOMAIN-SUFFIX,androidtv.com,PROXY
 DOMAIN-SUFFIX,api.ai,PROXY
 DOMAIN-SUFFIX,apigee.com,PROXY
 DOMAIN-SUFFIX,appspot.com,PROXY
@@ -135,9 +141,10 @@ DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
 DOMAIN,youtubei.googleapis.com,PROXY
 DOMAIN,yt3.ggpht.com,PROXY
+# > Quora
+DOMAIN-SUFFIX,quora.com,PROXY
+DOMAIN-SUFFIX,quoracdn.net,PROXY
 # Other
 DOMAIN-SUFFIX,feedly.com,PROXY
 DOMAIN-SUFFIX,medium.com,PROXY
 DOMAIN-SUFFIX,wordpress.com,PROXY
-# > Microsoft
-DOMAIN-SUFFIX,bing.com,PROXY
