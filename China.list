@@ -1,68 +1,49 @@
-# 常用UA
+# 腾讯
 user-agent,WeChat*,DIRECT
-user-agent,%E5%8D%B3%E5%88%BB*,DIRECT
-# 12306
-host-suffix,ad.12306.cn,DIRECT
-# 新浪
+user-agent,MicroMessenger%20Client,DIRECT
+host-suffix,gtimg.com,DIRECT
+host-suffix,qq.com,DIRECT
+HOST-SUFFIX,servicewechat.com,DIRECT
+HOST-SUFFIX,wechatpay.com,DIRECT
+HOST-SUFFIX,weixin.com,DIRECT
+
 # > Weibo
 host-suffix,weibo.com,DIRECT
 host-suffix,weibo.cn,DIRECT
-# > Weibo ADs
-host,boot.biz.weibo.com,reject
-# > Weibo Api
-host-suffix,api.weibo.cn,DIRECT
-host-suffix,api.weibo.com,DIRECT
-host-suffix,dns.weibo.cn,DIRECT
-# > Weibo CDN
 host-suffix,weibocdn.com,DIRECT
-# > Weibo Client & SDK
-host-suffix,wbapp.mobile.sina.cn,reject
-host-suffix,sdkapp.mobile.sina.cn,reject
-host,sdkapp.uve.weibo.com, DIRECT
-# > Weibo Img
-host-suffix,sinajs.cn,DIRECT
-host-suffix,vip.storage.weibo.com,DIRECT
-host-suffix,simg.s.weibo.com,DIRECT
-host-suffix,sinaimg.cn,DIRECT
-host-suffix,sinaimg.com,DIRECT
-host-suffix,miaozhen.com,DIRECT
-host-suffix,data.kuiniuca.com,DIRECT
-# > Weibo Live
-host-suffix,live.weibo.com,DIRECT
 
-# 其他常用网站直联
-host-suffix,zhihu.com,DIRECT
-host-suffix,zhimg.com,DIRECT
-host-suffix,geetest.com,DIRECT
-
+# > 小红书
+host-suffix,fengkongcloud.com,DIRECT
+host-suffix,xhscdn.com,DIRECT
+host-suffix,xhscdn.net,DIRECT
+host-suffix,xiaohongshu.com,DIRECT
+# > Caiyun
+host-suffix,caiyunapp.com,DIRECT
+host-suffix,cyapi.cn,DIRECT
+# > 招行
 host-suffix,cmbchina.com,DIRECT
 host-suffix,cmbimg.com,DIRECT
-HOST-SUFFIX,xueqiu.com,DIRECT
-host-suffix,douban.com,DIRECT
-host-suffix,linkedin.com,DIRECT
-host-suffix,meituan.com,DIRECT
-host-suffix,meituan.net,DIRECT
-host-suffix,smzdm.com,DIRECT
-host-suffix,ximalaya.com,DIRECT
-host-suffix,xmcdn.com,DIRECT
+# 即刻
+user-agent,%E5%8D%B3%E5%88%BB*,DIRECT
+# 知乎
+HOST-SUFFIX,zhihu.com,DIRECT
+HOST-SUFFIX,zhimg.com,DIRECT
+IP-CIDR,103.41.167.226/32,DIRECT
+IP-CIDR,103.41.167.234/31,DIRECT
+IP-CIDR,103.41.167.236/32,DIRECT
+IP-CIDR,118.89.204.198/32,DIRECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,DIRECT
+# 知识星球
+host-suffix,zsxq.com,DIRECT
+host-suffix,uc.qbox.me,DIRECT
+host-suffix,jpush.cn,DIRECT
+# 拼多多
+host-suffix,pinduoduo.com,DIRECT
+host-suffix,pddpic.com,DIRECT
 host-suffix,yangkeduo.com,DIRECT
-host-suffix,360buy.com,DIRECT
-host-suffix,sf-express.com,DIRECT
-
-
-# 腾讯
-user-agent,MicroMessenger%20Client,DIRECT
-host-suffix,gtimg.com,DIRECT
-host-suffix,idqqimg.com,DIRECT
-host-suffix,igamecj.com,DIRECT
-host-suffix,myapp.com,DIRECT
-host-suffix,myqcloud.com,DIRECT
-host-suffix,qq.com,DIRECT
-host-suffix,tencent.com,DIRECT
-host-suffix,tencent-cloud.net,DIRECT
 # 阿里
-user-agent,%E4%BC%98%E9%85%B7*,DIRECT
 host-suffix,alibaba.com,DIRECT
+host-suffix,alibaba-inc.com,DIRECT
 host-suffix,alicdn.com,DIRECT
 host-suffix,alikunlun.com,DIRECT
 host-suffix,alipay.com,DIRECT
@@ -70,30 +51,43 @@ HOST-SUFFIX,alipay.cn,DIRECT
 host-suffix,amap.com,DIRECT
 host-suffix,autonavi.com,DIRECT
 host-suffix,dingtalk.com,DIRECT
-host-suffix,mxhichina.com,DIRECT
-host-suffix,soku.com,DIRECT
 host-suffix,taobao.com,DIRECT
 host-suffix,tmall.com,DIRECT
 host-suffix,tmall.hk,DIRECT
 host-suffix,ykimg.com,DIRECT
-host-suffix,youku.com,DIRECT
 host-suffix,alipayobjects.com,DIRECT
 host-suffix,aliyun.com,DIRECT
+host-suffix,aliyuncs.com,DIRECT
+host-suffix,tanx.com,DIRECT
+host-suffix,uc.cn,DIRECT
 # 京东
 host-suffix,jd.com,DIRECT
-host-suffix,jd.hk,DIRECT
 host-suffix,jdpay.com,DIRECT
 host-suffix,360buyimg.com,DIRECT
+host-suffix,360buy.com,DIRECT
 # 滴滴
 host-suffix,didialift.com,DIRECT
 host-suffix,didiglobal.com,DIRECT
 host-suffix,udache.com,DIRECT
+# 美团
+host-suffix,meituan.com,DIRECT
+host-suffix,meituan.net,DIRECT
+HOST-SUFFIX,dianping.com,DIRECT
+HOST-SUFFIX,sankuai.com,DIRECT
+# 12306
+host-suffix,12306.cn,DIRECT
 # 百度
 host-suffix,baidu.com,DIRECT
 host-suffix,bdimg.com,DIRECT
 host-suffix,baidubcr.com,DIRECT
 host-suffix,bdstatic.com,DIRECT
 host-suffix,yunjiasu-cdn.net,DIRECT
+# 其他
+host-suffix,geetest.com,DIRECT
+host-suffix,douban.com,DIRECT
+host-suffix,ximalaya.com,DIRECT
+host-suffix,xmcdn.com,DIRECT
+host-suffix,sf-express.com,DIRECT
 
-# GeoIP CN段 直联
+# GeoIP
 GEOIP,CN,DIRECT
