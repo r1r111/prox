@@ -82,6 +82,9 @@ host-suffix,bdimg.com,DIRECT
 host-suffix,baidubcr.com,DIRECT
 host-suffix,bdstatic.com,DIRECT
 host-suffix,yunjiasu-cdn.net,DIRECT
+# Umeng
+DOMAIN,msg.umeng.com,DIRECT
+DOMAIN,msg.umengcloud.com,DIRECT
 # 其他
 host-suffix,geetest.com,DIRECT
 host-suffix,douban.com,DIRECT
