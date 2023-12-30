@@ -14,10 +14,12 @@ DOMAIN-SUFFIX,pscp.tv,PROXY
 # > Firefox
 DOMAIN-SUFFIX,services.mozilla.com,PROXY
 HOST-SUFFIX,firefox.com,PROXY
+# > Spotify
+HOST-SUFFIX,scdn.co,PROXY
+HOST-SUFFIX,spotify.com,PROXY
+HOST-SUFFIX,spotifycdn.com,PROXY
 # > Mega
 HOST-SUFFIX,mega.co.nz,PROXY
-HOST-SUFFIX,mega.io,PROXY
-HOST-SUFFIX,mega.nz,PROXY
 # > OpenAI
 host-suffix,auth0.com,PROXY
 host,challenges.cloudflare.com,PROXY
@@ -32,9 +34,21 @@ host-suffix,chat.openai.com.cdn.cloudflare.net,PROXY
 host-suffix,openaiapi-site.azureedge.net,PROXY
 
 host-suffix,poe.com,PROXY
+host-suffix,poecdn.net,PROXY
+host-suffix,app-measurement.com,PROXY
+# > Quora
+DOMAIN-SUFFIX,quora.com,PROXY
+DOMAIN-SUFFIX,quoracdn.net,PROXY
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,PROXY
+USER-AGENT,YouTube*,PROXY
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,youtubeeducation.com,PROXY
+DOMAIN-SUFFIX,youtubegaming.com,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+DOMAIN,youtubei.googleapis.com,PROXY
 # > Alphabet
-DOMAIN-SUFFIX,abc.xyz,PROXY
-DOMAIN-SUFFIX,admob.com,PROXY
 DOMAIN-SUFFIX,adsense.com,PROXY
 DOMAIN-SUFFIX,advertisercommunity.com,PROXY
 DOMAIN-SUFFIX,ampproject.org,PROXY
@@ -47,8 +61,6 @@ DOMAIN-SUFFIX,chrome.com,PROXY
 DOMAIN-SUFFIX,chromium.org,PROXY
 DOMAIN-SUFFIX,debug.com,PROXY
 DOMAIN-SUFFIX,dialogflow.com,PROXY
-DOMAIN-SUFFIX,feedburner.com,PROXY
-DOMAIN-SUFFIX,firebaseio.com,PROXY
 DOMAIN-SUFFIX,g.co,PROXY
 DOMAIN-SUFFIX,getoutline.org,PROXY
 DOMAIN-SUFFIX,ggpht.com,PROXY
@@ -57,20 +69,14 @@ DOMAIN-SUFFIX,gmodules.com,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
 DOMAIN-SUFFIX,gvt1.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
-DOMAIN-SUFFIX,itasoftware.com,PROXY
-DOMAIN-SUFFIX,on2.com,PROXY
 DOMAIN-SUFFIX,recaptcha.net,PROXY
 DOMAIN-SUFFIX,schema.org,PROXY
 DOMAIN-SUFFIX,tensorflow.org,PROXY
 DOMAIN-SUFFIX,tenor.com,PROXY
 DOMAIN-SUFFIX,tfhub.dev,PROXY
-DOMAIN-SUFFIX,tiltbrush.com,PROXY
-DOMAIN-SUFFIX,waymo.com,PROXY
 DOMAIN-SUFFIX,web.dev,PROXY
-DOMAIN-SUFFIX,webmproject.org,PROXY
 DOMAIN-SUFFIX,webrtc.org,PROXY
 DOMAIN-SUFFIX,widevine.com,PROXY
-DOMAIN-SUFFIX,zynamics.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,.blogspot.,PROXY
 DOMAIN-SUFFIX,goog,PROXY
@@ -96,12 +102,7 @@ IP6-CIDR,2001:b28:f23f::/48,PROXY
 IP6-CIDR,2001:67c:4e8::/48,PROXY
 IP6-CIDR,2001:b28:f23c::/48,PROXY
 IP6-CIDR,2a0a:f280::/32,PROXY
-# > Discord
-DOMAIN-SUFFIX,discord.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,discordapp.net,PROXY
 # > Microsoft github
-DOMAIN-SUFFIX,github.blog,PROXY
 DOMAIN-SUFFIX,github.com,PROXY
 DOMAIN-SUFFIX,github.io,PROXY
 DOMAIN-SUFFIX,githubassets.com,PROXY
@@ -126,25 +127,11 @@ DOMAIN-SUFFIX,wikisource.org,PROXY
 DOMAIN-SUFFIX,wikiversity.org,PROXY
 DOMAIN-SUFFIX,wikivoyage.org,PROXY
 DOMAIN-SUFFIX,wiktionary.org,PROXY
-# > YouTube
-USER-AGENT,com.google.ios.youtube*,PROXY
-USER-AGENT,YouTube*,PROXY
-DOMAIN-SUFFIX,googlevideo.com,PROXY
-DOMAIN-SUFFIX,withyoutube.com,PROXY
-DOMAIN-SUFFIX,youtu.be,PROXY
-DOMAIN-SUFFIX,youtube.com,PROXY
-DOMAIN-SUFFIX,youtubeeducation.com,PROXY
-DOMAIN-SUFFIX,youtubegaming.com,PROXY
-DOMAIN-SUFFIX,youtubekids.com,PROXY
-DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
-DOMAIN-SUFFIX,yt.be,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
-DOMAIN,youtubei.googleapis.com,PROXY
-DOMAIN,yt3.ggpht.com,PROXY
-# > Quora
-DOMAIN-SUFFIX,quora.com,PROXY
-DOMAIN-SUFFIX,quoracdn.net,PROXY
 # Other
 DOMAIN-SUFFIX,feedly.com,PROXY
 DOMAIN-SUFFIX,medium.com,PROXY
 DOMAIN-SUFFIX,wordpress.com,PROXY
+# > Discord
+# DOMAIN-SUFFIX,discord.com,PROXY
+# DOMAIN-SUFFIX,discordapp.com,PROXY
+# DOMAIN-SUFFIX,discordapp.net,PROXY
