@@ -1,16 +1,9 @@
 # > Twitter
 DOMAIN-SUFFIX,t.co,PROXY
-DOMAIN-SUFFIX,tweetdeck.com,PROXY
-DOMAIN-SUFFIX,twimg.co,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
 DOMAIN-SUFFIX,twimg.com,PROXY
-DOMAIN-SUFFIX,twitpic.com,PROXY
 DOMAIN-SUFFIX,twitter.com,PROXY
-DOMAIN-SUFFIX,twitter.jp,PROXY
-DOMAIN-SUFFIX,vine.co,PROXY
 HOST-SUFFIX,ads-twitter.com,PROXY
-HOST-SUFFIX,x.com,PROXY
-DOMAIN-SUFFIX,periscope.tv,PROXY
-DOMAIN-SUFFIX,pscp.tv,PROXY
 # > Firefox
 DOMAIN-SUFFIX,services.mozilla.com,PROXY
 HOST-SUFFIX,firefox.com,PROXY
@@ -44,10 +37,7 @@ USER-AGENT,com.google.ios.youtube*,PROXY
 USER-AGENT,YouTube*,PROXY
 DOMAIN-SUFFIX,googlevideo.com,PROXY
 DOMAIN-SUFFIX,youtube.com,PROXY
-DOMAIN-SUFFIX,youtubeeducation.com,PROXY
-DOMAIN-SUFFIX,youtubegaming.com,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
-DOMAIN,youtubei.googleapis.com,PROXY
 # > Alphabet
 DOMAIN-SUFFIX,adsense.com,PROXY
 DOMAIN-SUFFIX,advertisercommunity.com,PROXY
@@ -58,11 +48,7 @@ DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogblog.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,chrome.com,PROXY
-DOMAIN-SUFFIX,chromium.org,PROXY
-DOMAIN-SUFFIX,debug.com,PROXY
-DOMAIN-SUFFIX,dialogflow.com,PROXY
 DOMAIN-SUFFIX,g.co,PROXY
-DOMAIN-SUFFIX,getoutline.org,PROXY
 DOMAIN-SUFFIX,ggpht.com,PROXY
 DOMAIN-SUFFIX,gmail.com,PROXY
 DOMAIN-SUFFIX,gmodules.com,PROXY
@@ -83,11 +69,9 @@ DOMAIN-SUFFIX,goog,PROXY
 # > Telegram
 DOMAIN-SUFFIX,legra.ph,PROXY
 DOMAIN-SUFFIX,t.me,PROXY
-DOMAIN-SUFFIX,tdesktop.com,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
 DOMAIN-SUFFIX,telegram.me,PROXY
 DOMAIN-SUFFIX,telegram.org,PROXY
-DOMAIN-SUFFIX,telesco.pe,PROXY
 IP-CIDR,91.108.4.0/22,PROXY
 IP-CIDR,91.108.8.0/22,PROXY
 IP-CIDR,91.108.12.0/22,PROXY
@@ -114,19 +98,8 @@ DOMAIN-SUFFIX,reddit.com,PROXY
 DOMAIN-SUFFIX,redditmedia.com,PROXY
 DOMAIN-SUFFIX,redditstatic.com,PROXY
 # > Wikimedia Foundation
-DOMAIN-SUFFIX,mediawiki.org,PROXY
-DOMAIN-SUFFIX,wikibooks.org,PROXY
-DOMAIN-SUFFIX,wikidata.org,PROXY
-DOMAIN-SUFFIX,wikileaks.org,PROXY
 DOMAIN-SUFFIX,wikimedia.org,PROXY
-DOMAIN-SUFFIX,wikimediafoundation.org,PROXY
-DOMAIN-SUFFIX,wikinews.org,PROXY
 DOMAIN-SUFFIX,wikipedia.org,PROXY
-DOMAIN-SUFFIX,wikiquote.org,PROXY
-DOMAIN-SUFFIX,wikisource.org,PROXY
-DOMAIN-SUFFIX,wikiversity.org,PROXY
-DOMAIN-SUFFIX,wikivoyage.org,PROXY
-DOMAIN-SUFFIX,wiktionary.org,PROXY
 # Other
 DOMAIN-SUFFIX,feedly.com,PROXY
 DOMAIN-SUFFIX,medium.com,PROXY
