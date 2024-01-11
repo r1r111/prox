@@ -1,11 +1,18 @@
 # 腾讯
-user-agent,WeChat*,DIRECT
-user-agent,MicroMessenger%20Client,DIRECT
-host-suffix,gtimg.com,DIRECT
-host-suffix,qq.com,DIRECT
+HOST-SUFFIX,qlogo.cn,DIRECT
+HOST-SUFFIX,qpic.cn,DIRECT
 HOST-SUFFIX,servicewechat.com,DIRECT
+HOST-SUFFIX,tenpay.com,DIRECT
+HOST-SUFFIX,wechat.com,DIRECT
+HOST-SUFFIX,wechatlegal.net,DIRECT
 HOST-SUFFIX,wechatpay.com,DIRECT
 HOST-SUFFIX,weixin.com,DIRECT
+HOST-SUFFIX,weixin.qq.com,DIRECT
+HOST-SUFFIX,weixinbridge.com,DIRECT
+HOST-SUFFIX,weixinsxy.com,DIRECT
+HOST-SUFFIX,wxapp.tc.qq.com,DIRECT
+USER-AGENT,MicroMessenger*,DIRECT
+USER-AGENT,WeChat*,DIRECT
 # Weibo
 host-suffix,weibo.com,DIRECT
 host-suffix,weibo.cn,DIRECT
@@ -18,7 +25,7 @@ host-suffix,cmbchina.com,DIRECT
 host-suffix,cmbimg.com,DIRECT
 HOST-SUFFIX,cmbt.cn,DIRECT
 # 即刻
-user-agent,%E5%8D%B3%E5%88%BB*,DIRECT
+USER-AGENT,%E5%8D%B3%E5%88%BB*,DIRECT
 # 知乎
 HOST-SUFFIX,zhihu.com,DIRECT
 HOST-SUFFIX,zhimg.com,DIRECT
