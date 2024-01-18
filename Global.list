@@ -1,28 +1,39 @@
 # Twitter
-DOMAIN-SUFFIX,t.co,PROXY
-DOMAIN-SUFFIX,gstatic.com,PROXY
-DOMAIN-SUFFIX,twimg.com,PROXY
-DOMAIN-SUFFIX,twitter.com,PROXY
+HOST-SUFFIX,t.co,PROXY
+HOST-SUFFIX,gstatic.com,PROXY
+HOST-SUFFIX,twimg.com,PROXY
+HOST-SUFFIX,twitter.com,PROXY
 HOST-SUFFIX,ads-twitter.com,PROXY
+IP-CIDR,192.133.76.0/22,PROXY
+IP-CIDR,199.16.156.0/22,PROXY
+IP-CIDR,199.59.148.0/22,PROXY
+IP-CIDR,199.96.56.0/21,PROXY
+IP-CIDR,202.160.128.0/22,PROXY
+IP-CIDR,209.237.192.0/19,PROXY
+IP-CIDR,69.195.160.0/19,PROXY
 # YouTube
 USER-AGENT,com.google.ios.youtube*,PROXY
 USER-AGENT,YouTube*,PROXY
-DOMAIN-SUFFIX,googlevideo.com,PROXY
-DOMAIN-SUFFIX,youtube.com,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
-DOMAIN-SUFFIX,yt.be,PROXY
+HOST-SUFFIX,googlevideo.com,PROXY
+HOST-SUFFIX,youtube.com,PROXY
+HOST-SUFFIX,ytimg.com,PROXY
+HOST-SUFFIX,yt.be,PROXY
 HOST-SUFFIX,googleapis.com,PROXY
-HOST-SUFFIX,video.google.com,PROXY
+HOST-SUFFIX,ggpht.com,PROXY
+HOST-SUFFIX,google.com,PROXY
 HOST-SUFFIX,youtu.be,PROXY
 IP-CIDR,172.110.32.0/21,PROXY
 IP-CIDR,216.73.80.0/20,PROXY
 # Firefox
-DOMAIN-SUFFIX,services.mozilla.com,PROXY
+HOST-SUFFIX,mozilla.com,PROXY
+HOST-SUFFIX,mozilla.org,PROXY
 HOST-SUFFIX,firefox.com,PROXY
 # Spotify
 HOST-SUFFIX,scdn.co,PROXY
 HOST-SUFFIX,spotify.com,PROXY
 HOST-SUFFIX,spotifycdn.com,PROXY
+HOST-SUFFIX,akamaized.net,PROXY
+HOST-SUFFIX,branch.io,PROXY
 # Mega
 HOST-SUFFIX,mega.co.nz,PROXY
 # Openai
@@ -50,71 +61,70 @@ HOST-SUFFIX,segment.io,PROXY
 HOST-SUFFIX,sentry.io,PROXY
 HOST-SUFFIX,stripe.com,PROXY
 HOST-SUFFIX,turn.livekit.cloud,PROXY
-# Poe
-host-suffix,poe.com,PROXY
-host-suffix,poecdn.net,PROXY
+# Poe Quora
+HOST-SUFFIX,poe.com,PROXY
+HOST-SUFFIX,poecdn.net,PROXY
+HOST-SUFFIX,quora.com,PROXY
+HOST-SUFFIX,quoracdn.net,PROXY
 # Alphabet
-DOMAIN-SUFFIX,adsense.com,PROXY
-DOMAIN-SUFFIX,advertisercommunity.com,PROXY
-DOMAIN-SUFFIX,ampproject.org,PROXY
-DOMAIN-SUFFIX,api.ai,PROXY
-DOMAIN-SUFFIX,apigee.com,PROXY
-DOMAIN-SUFFIX,appspot.com,PROXY
-DOMAIN-SUFFIX,blogblog.com,PROXY
-DOMAIN-SUFFIX,blogger.com,PROXY
-DOMAIN-SUFFIX,chrome.com,PROXY
-DOMAIN-SUFFIX,g.co,PROXY
-DOMAIN-SUFFIX,ggpht.com,PROXY
-DOMAIN-SUFFIX,gmail.com,PROXY
-DOMAIN-SUFFIX,gmodules.com,PROXY
-DOMAIN-SUFFIX,gvt0.com,PROXY
-DOMAIN-SUFFIX,gvt1.com,PROXY
-DOMAIN-SUFFIX,gvt3.com,PROXY
-DOMAIN-SUFFIX,recaptcha.net,PROXY
-DOMAIN-SUFFIX,schema.org,PROXY
-DOMAIN-SUFFIX,tensorflow.org,PROXY
-DOMAIN-SUFFIX,tenor.com,PROXY
-DOMAIN-SUFFIX,tfhub.dev,PROXY
-DOMAIN-SUFFIX,web.dev,PROXY
-DOMAIN-SUFFIX,webrtc.org,PROXY
-DOMAIN-SUFFIX,widevine.com,PROXY
+HOST-SUFFIX,adsense.com,PROXY
+HOST-SUFFIX,advertisercommunity.com,PROXY
+HOST-SUFFIX,ampproject.org,PROXY
+HOST-SUFFIX,api.ai,PROXY
+HOST-SUFFIX,apigee.com,PROXY
+HOST-SUFFIX,appspot.com,PROXY
+HOST-SUFFIX,blogblog.com,PROXY
+HOST-SUFFIX,blogger.com,PROXY
+HOST-SUFFIX,chrome.com,PROXY
+HOST-SUFFIX,g.co,PROXY
+HOST-SUFFIX,gmail.com,PROXY
+HOST-SUFFIX,gmodules.com,PROXY
+HOST-SUFFIX,gvt0.com,PROXY
+HOST-SUFFIX,gvt1.com,PROXY
+HOST-SUFFIX,gvt3.com,PROXY
+HOST-SUFFIX,recaptcha.net,PROXY
+HOST-SUFFIX,schema.org,PROXY
+HOST-SUFFIX,tensorflow.org,PROXY
+HOST-SUFFIX,tenor.com,PROXY
+HOST-SUFFIX,tfhub.dev,PROXY
+HOST-SUFFIX,web.dev,PROXY
+HOST-SUFFIX,webrtc.org,PROXY
+HOST-SUFFIX,widevine.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,.blogspot.,PROXY
-DOMAIN-SUFFIX,goog,PROXY
-host-suffix,app-measurement.com,PROXY
+HOST-SUFFIX,goog,PROXY
+HOST-SUFFIX,app-measurement.com,PROXY
 # Microsoft github
-DOMAIN-SUFFIX,github.com,PROXY
-DOMAIN-SUFFIX,github.io,PROXY
-DOMAIN-SUFFIX,githubassets.com,PROXY
-DOMAIN-SUFFIX,githubusercontent.com,PROXY
-DOMAIN-SUFFIX,onedrive.live.com,PROXY
+HOST-SUFFIX,github.com,PROXY
+HOST-SUFFIX,github.io,PROXY
+HOST-SUFFIX,githubassets.com,PROXY
+HOST-SUFFIX,githubusercontent.com,PROXY
+HOST-SUFFIX,live.com,PROXY
 # Telegram
-HOST-SUFFIX,telegram-cdn.org,Telegram
-DOMAIN-SUFFIX,legra.ph,PROXY
-DOMAIN-SUFFIX,t.me,PROXY
-DOMAIN-SUFFIX,telegra.ph,PROXY
-DOMAIN-SUFFIX,telegram.me,PROXY
-DOMAIN-SUFFIX,telegram.org,PROXY
+HOST-SUFFIX,telegram-cdn.org,PROXY
+HOST-SUFFIX,legra.ph,PROXY
+HOST-SUFFIX,t.me,PROXY
+HOST-SUFFIX,telegra.ph,PROXY
+HOST-SUFFIX,telegram.me,PROXY
+HOST-SUFFIX,telegram.org,PROXY
 IP-CIDR,109.239.140.0/24,PROXY
 IP-CIDR,149.154.160.0/20,PROXY
 IP-CIDR,5.28.192.0/18,PROXY
 IP-CIDR,91.108.0.0/16,PROXY
 # Wikimedia Foundation
-DOMAIN-SUFFIX,wikimedia.org,PROXY
-DOMAIN-SUFFIX,wikipedia.org,PROXY
+HOST-SUFFIX,wikimedia.org,PROXY
+HOST-SUFFIX,wikipedia.org,PROXY
 # Other
-DOMAIN-SUFFIX,feedly.com,PROXY
-DOMAIN-SUFFIX,medium.com,PROXY
-DOMAIN-SUFFIX,wordpress.com,PROXY
+HOST-SUFFIX,feedly.com,PROXY
+HOST-SUFFIX,medium.com,PROXY
+HOST-SUFFIX,wordpress.com,PROXY
+HOST-SUFFIX,revenuecat.com,PROXY
 # Reddit
-DOMAIN-SUFFIX,redd.it,PROXY
-DOMAIN-SUFFIX,reddit.com,PROXY
-DOMAIN-SUFFIX,redditmedia.com,PROXY
-DOMAIN-SUFFIX,redditstatic.com,PROXY
-# Quora
-DOMAIN-SUFFIX,quora.com,PROXY
-DOMAIN-SUFFIX,quoracdn.net,PROXY
+HOST-SUFFIX,redd.it,PROXY
+HOST-SUFFIX,reddit.com,PROXY
+HOST-SUFFIX,redditmedia.com,PROXY
+HOST-SUFFIX,redditstatic.com,PROXY
 # Discord
-DOMAIN-SUFFIX,discord.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,discordapp.net,PROXY
+# HOST-SUFFIX,discord.com,PROXY
+# HOST-SUFFIX,discordapp.com,PROXY
+# HOST-SUFFIX,discordapp.net,PROXY
