@@ -1,4 +1,6 @@
 # 腾讯
+USER-AGENT,MicroMessenger*,DIRECT
+USER-AGENT,WeChat*,DIRECT
 HOST-SUFFIX,qlogo.cn,DIRECT
 HOST-SUFFIX,qpic.cn,DIRECT
 HOST-SUFFIX,servicewechat.com,DIRECT
@@ -7,25 +9,26 @@ HOST-SUFFIX,wechat.com,DIRECT
 HOST-SUFFIX,wechatlegal.net,DIRECT
 HOST-SUFFIX,wechatpay.com,DIRECT
 HOST-SUFFIX,weixin.com,DIRECT
-HOST-SUFFIX,weixin.qq.com,DIRECT
 HOST-SUFFIX,weixinbridge.com,DIRECT
 HOST-SUFFIX,weixinsxy.com,DIRECT
-HOST-SUFFIX,wxapp.tc.qq.com,DIRECT
-USER-AGENT,MicroMessenger*,DIRECT
-USER-AGENT,WeChat*,DIRECT
+HOST-SUFFIX,qq.com,DIRECT
 # Weibo
-host-suffix,weibo.com,DIRECT
-host-suffix,weibo.cn,DIRECT
-host-suffix,weibocdn.com,DIRECT
+HOST-SUFFIX,weibo.cn,DIRECT
+HOST-SUFFIX,weibocdn.com,DIRECT
+HOST-SUFFIX,sinaimg.cn,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
 # Caiyun
-host-suffix,caiyunapp.com,DIRECT
-host-suffix,cyapi.cn,DIRECT
+HOST-SUFFIX,caiyunapp.com,DIRECT
+HOST-SUFFIX,cyapi.cn,DIRECT
+HOST-SUFFIX,colorfulclouds.net,DIRECT
+HOST-SUFFIX,caiyuncdn.com,DIRECT
 # 招行
-host-suffix,cmbchina.com,DIRECT
-host-suffix,cmbimg.com,DIRECT
+HOST-SUFFIX,cmbchina.com,DIRECT
+HOST-SUFFIX,cmbimg.com,DIRECT
 HOST-SUFFIX,cmbt.cn,DIRECT
 # 即刻
-USER-AGENT,%E5%8D%B3%E5%88%BB*,DIRECT
+HOST-SUFFIX,ruguoapp.com,DIRECT
+IP,203.107.1.65,DIRECT
 # 知乎
 HOST-SUFFIX,zhihu.com,DIRECT
 HOST-SUFFIX,zhimg.com,DIRECT
@@ -33,69 +36,90 @@ IP-CIDR,103.41.167.226/32,DIRECT
 IP-CIDR,103.41.167.234/31,DIRECT
 IP-CIDR,103.41.167.236/32,DIRECT
 IP-CIDR,118.89.204.198/32,DIRECT
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,DIRECT
 # 小红书
-host-suffix,fengkongcloud.com,DIRECT
-host-suffix,xhscdn.com,DIRECT
-host-suffix,xhscdn.net,DIRECT
-host-suffix,xiaohongshu.com,DIRECT
+HOST-SUFFIX,fengkongcloud.com,DIRECT
+HOST-SUFFIX,xhscdn.com,DIRECT
+HOST-SUFFIX,xhscdn.net,DIRECT
+HOST-SUFFIX,xiaohongshu.com,DIRECT
 # 知识星球
-host-suffix,zsxq.com,DIRECT
-host-suffix,uc.qbox.me,DIRECT
-host-suffix,jpush.cn,DIRECT
+HOST-SUFFIX,zsxq.com,DIRECT
+HOST-SUFFIX,uc.qbox.me,DIRECT
+HOST-SUFFIX,jpush.cn,DIRECT
 # 拼多多
-host-suffix,pinduoduo.com,DIRECT
-host-suffix,pddpic.com,DIRECT
-host-suffix,yangkeduo.com,DIRECT
+HOST-SUFFIX,pinduoduo.com,DIRECT
+HOST-SUFFIX,pddpic.com,DIRECT
+HOST-SUFFIX,yangkeduo.com,DIRECT
 # 阿里
-host-suffix,alibaba.com,DIRECT
-host-suffix,alibaba-inc.com,DIRECT
-host-suffix,alicdn.com,DIRECT
-host-suffix,alikunlun.com,DIRECT
-host-suffix,alipay.com,DIRECT
+HOST-SUFFIX,alibaba.com,DIRECT
+HOST-SUFFIX,alibaba-inc.com,DIRECT
+HOST-SUFFIX,alibabachengdun.com,DIRECT
+HOST-SUFFIX,alicdn.com,DIRECT
+HOST-SUFFIX,alikunlun.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
 HOST-SUFFIX,alipay.cn,DIRECT
-host-suffix,amap.com,DIRECT
-host-suffix,autonavi.com,DIRECT
-host-suffix,dingtalk.com,DIRECT
-host-suffix,taobao.com,DIRECT
-host-suffix,tmall.com,DIRECT
-host-suffix,ykimg.com,DIRECT
-host-suffix,alipayobjects.com,DIRECT
-host-suffix,aliyun.com,DIRECT
-host-suffix,aliyuncs.com,DIRECT
-host-suffix,tanx.com,DIRECT
-host-suffix,uc.cn,DIRECT
+HOST-SUFFIX,aliapp.org,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,autonavi.com,DIRECT
+HOST-SUFFIX,dingtalk.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,ykimg.com,DIRECT
+HOST-SUFFIX,alipayobjects.com,DIRECT
+HOST-SUFFIX,aliyun.com,DIRECT
+HOST-SUFFIX,aliyuncs.com,DIRECT
+HOST-SUFFIX,tanx.com,DIRECT
+HOST-SUFFIX,uc.cn,DIRECT
+HOST-SUFFIX,digicert.com,DIRECT
 # 京东
-host-suffix,jd.com,DIRECT
-host-suffix,jdpay.com,DIRECT
-host-suffix,360buyimg.com,DIRECT
-host-suffix,360buy.com,DIRECT
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,jdpay.com,DIRECT
+HOST-SUFFIX,360buyimg.com,DIRECT
+HOST-SUFFIX,360buy.com,DIRECT
 # 滴滴
-host-suffix,didialift.com,DIRECT
-host-suffix,didiglobal.com,DIRECT
-host-suffix,udache.com,DIRECT
+HOST-SUFFIX,udache.com,DIRECT
+HOST-SUFFIX,xiaojukeji.com,DIRECT
+HOST-SUFFIX,xiaojuchefu.cn,DIRECT
+HOST-SUFFIX,didistatic.com,DIRECT
+HOST-SUFFIX,diditaxi.com.cn,DIRECT
+HOST-SUFFIX,didialift.com,DIRECT
+HOST-SUFFIX,didi.cn,DIRECT
 # 美团
-host-suffix,meituan.com,DIRECT
-host-suffix,meituan.net,DIRECT
+HOST-SUFFIX,meituan.com,DIRECT
+HOST-SUFFIX,meituan.net,DIRECT
 HOST-SUFFIX,dianping.com,DIRECT
 HOST-SUFFIX,sankuai.com,DIRECT
+HOST-SUFFIX,neixin.cn,DIRECT
 # 12306
-host-suffix,12306.cn,DIRECT
+HOST-SUFFIX,12306.cn,DIRECT
+HOST-SUFFIX,hzchengdun.com,DIRECT
 # 百度
-host-suffix,baidu.com,DIRECT
-host-suffix,bdimg.com,DIRECT
-host-suffix,baidubcr.com,DIRECT
-host-suffix,bdstatic.com,DIRECT
-host-suffix,yunjiasu-cdn.net,DIRECT
+HOST-SUFFIX,baidu.com,DIRECT
+HOST-SUFFIX,bdimg.com,DIRECT
+HOST-SUFFIX,baidubcr.com,DIRECT
+HOST-SUFFIX,bdstatic.com,DIRECT
+HOST-SUFFIX,yunjiasu-cdn.net,DIRECT
 # Umeng
-DOMAIN,msg.umeng.com,DIRECT
-DOMAIN,msg.umengcloud.com,DIRECT
+HOST-SUFFIX,umeng.com,DIRECT
+HOST-SUFFIX,umengcloud.com,DIRECT
+# 财新周刊
+HOST-SUFFIX,caing.cn,DIRECT
+HOST-SUFFIX,caing.com,DIRECT
+HOST-SUFFIX,caixin.com,DIRECT
+HOST-SUFFIX,caixinmedia.cn,DIRECT
+HOST-SUFFIX,caixinmedia.com,DIRECT
+HOST-SUFFIX,caixinmedia.com.cn,DIRECT
+HOST-SUFFIX,caixinonline.com,DIRECT
+HOST-SUFFIX,growingio.com,DIRECT
+# 喜马拉雅
+HOST-SUFFIX,ximalaya.com,DIRECT
+HOST-SUFFIX,xmcdn.com,DIRECT
+# 顺丰
+HOST-SUFFIX,sf-express.com,DIRECT
 # 其他
-host-suffix,geetest.com,DIRECT
-host-suffix,douban.com,DIRECT
-host-suffix,ximalaya.com,DIRECT
-host-suffix,xmcdn.com,DIRECT
-host-suffix,sf-express.com,DIRECT
+HOST-SUFFIX,geetest.com,DIRECT
+HOST-SUFFIX,douban.com,DIRECT
+HOST-SUFFIX,sohu.com,DIRECT
+HOST-SUFFIX,mob.com,DIRECT
 
 # GeoIP
 GEOIP,CN,DIRECT
