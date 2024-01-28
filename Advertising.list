@@ -79,6 +79,7 @@ HOST-SUFFIX,afd.l.google.com, reject
 
 # Zhihu
 USER-AGENT,AVOS*, REJECT
+host, appcloud.zhihu.com, REJECT
 host, appcloud2.in.zhihu.com, REJECT
 host, mqtt.zhihu.com, REJECT
 host, sugar.zhihu.com, REJECT
