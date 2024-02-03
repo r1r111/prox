@@ -114,16 +114,21 @@ IP-CIDR,91.108.0.0/16,PROXY
 # Wikimedia Foundation
 HOST-SUFFIX,wikimedia.org,PROXY
 HOST-SUFFIX,wikipedia.org,PROXY
-# Other
-HOST-SUFFIX,feedly.com,PROXY
-HOST-SUFFIX,medium.com,PROXY
-HOST-SUFFIX,wordpress.com,PROXY
-HOST-SUFFIX,revenuecat.com,PROXY
+# Instagram
+HOST-SUFFIX,cdninstagram.com,PROXY
+HOST-SUFFIX,instagr.am,PROXY
+HOST-SUFFIX,instagram.com,PROXY
+HOST-KEYWORD,instagram,PROXY
 # Reddit
 HOST-SUFFIX,redd.it,PROXY
 HOST-SUFFIX,reddit.com,PROXY
 HOST-SUFFIX,redditmedia.com,PROXY
 HOST-SUFFIX,redditstatic.com,PROXY
+# Other
+HOST-SUFFIX,feedly.com,PROXY
+HOST-SUFFIX,medium.com,PROXY
+HOST-SUFFIX,wordpress.com,PROXY
+HOST-SUFFIX,revenuecat.com,PROXY
 # Discord
 # HOST-SUFFIX,discord.com,PROXY
 # HOST-SUFFIX,discordapp.com,PROXY
