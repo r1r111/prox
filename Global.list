@@ -34,6 +34,7 @@ HOST-SUFFIX,spotify.com,PROXY
 HOST-SUFFIX,spotifycdn.com,PROXY
 HOST-SUFFIX,akamaized.net,PROXY
 HOST-SUFFIX,branch.io,PROXY
+HOST-SUFFIX,anchor.fm,PROXY
 # Mega
 HOST-SUFFIX,mega.co.nz,PROXY
 # Openai
