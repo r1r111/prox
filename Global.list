@@ -119,6 +119,10 @@ HOST-SUFFIX,cdninstagram.com,PROXY
 HOST-SUFFIX,instagr.am,PROXY
 HOST-SUFFIX,instagram.com,PROXY
 HOST-KEYWORD,instagram,PROXY
+# felo
+HOST-SUFFIX,felo.ai,PROXY
+HOST-SUFFIX,felo.me,PROXY
+HOST-SUFFIX,microsoft.com,PROXY
 # Reddit
 HOST-SUFFIX,redd.it,PROXY
 HOST-SUFFIX,reddit.com,PROXY
@@ -130,6 +134,6 @@ HOST-SUFFIX,medium.com,PROXY
 HOST-SUFFIX,wordpress.com,PROXY
 HOST-SUFFIX,revenuecat.com,PROXY
 # Discord
-# HOST-SUFFIX,discord.com,PROXY
-# HOST-SUFFIX,discordapp.com,PROXY
-# HOST-SUFFIX,discordapp.net,PROXY
+HOST-SUFFIX,discord.com,PROXY
+HOST-SUFFIX,discordapp.com,PROXY
+HOST-SUFFIX,discordapp.net,PROXY
