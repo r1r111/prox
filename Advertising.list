@@ -76,6 +76,7 @@ HOST-SUFFIX,mobileads.google.com, reject
 HOST-SUFFIX,googlecommerce.com, reject
 HOST-SUFFIX,badad.googleplex.com, reject
 HOST-SUFFIX,afd.l.google.com, reject
+host, ads.youtube.com, reject
 
 # Zhihu
 USER-AGENT,AVOS*, REJECT
@@ -207,6 +208,20 @@ HOST, route-stats.d.meituan.net, REJECT
 # 滴滴青桔（支付界面图片有误杀）
 ;host-keyword, pt-starimg.didistatic.com, reject
 ip-cidr, 203.107.1.1/24, reject
+
+# 建行
+host-suffix, adv.ccb.com, reject
+
+# 云闪付
+host, ads.95516.com, reject
+host, cm-10-138.getui.com, reject
+host, sdk.open.talk.getui.net, reject
+host, sdk-conf.getui.com, reject
+host, switch.cup.com.cn, reject
+host, tysdk.95516.com, reject
+
+# 阿里云
+IP-CIDR, 203.107.1.1/24, reject
 
 # 中国移动
 IP-CIDR, 120.240.95.37/32, reject
