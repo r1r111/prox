@@ -96,6 +96,11 @@ HOST-SUFFIX,ccb.cn,DIRECT
 HOST-SUFFIX,ccb.com,DIRECT
 HOST-SUFFIX,ccb.com.cn,DIRECT
 HOST-SUFFIX,ccbcos.com,DIRECT
+# 中行
+HOST-SUFFIX,bank-of-china.com,DIRECT
+HOST-SUFFIX,bankofchina.com,DIRECT
+HOST-SUFFIX,boc.cn,DIRECT
+HOST-SUFFIX,bochk.com,DIRECT
 # 百度
 HOST-SUFFIX,baidu.com,DIRECT
 HOST-SUFFIX,bdimg.com,DIRECT
