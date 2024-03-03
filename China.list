@@ -101,6 +101,7 @@ HOST-SUFFIX,bank-of-china.com,DIRECT
 HOST-SUFFIX,bankofchina.com,DIRECT
 HOST-SUFFIX,boc.cn,DIRECT
 HOST-SUFFIX,bochk.com,DIRECT
+HOST-SUFFIX,etnet.com.hk,DIRECT
 # 百度
 HOST-SUFFIX,baidu.com,DIRECT
 HOST-SUFFIX,bdimg.com,DIRECT
