@@ -11,6 +11,7 @@ HOST-SUFFIX,wechatpay.com,DIRECT
 HOST-SUFFIX,weixin.com,DIRECT
 HOST-SUFFIX,weixinbridge.com,DIRECT
 HOST-SUFFIX,weixinsxy.com,DIRECT
+HOST-SUFFIX,gtimg.com,DIRECT
 HOST-SUFFIX,qq.com,DIRECT
 # Weibo
 HOST-SUFFIX,weibo.cn,DIRECT
@@ -22,10 +23,6 @@ HOST-SUFFIX,caiyunapp.com,DIRECT
 HOST-SUFFIX,cyapi.cn,DIRECT
 HOST-SUFFIX,colorfulclouds.net,DIRECT
 HOST-SUFFIX,caiyuncdn.com,DIRECT
-# 招行
-HOST-SUFFIX,cmbchina.com,DIRECT
-HOST-SUFFIX,cmbimg.com,DIRECT
-HOST-SUFFIX,cmbt.cn,DIRECT
 # 即刻
 HOST-SUFFIX,ruguoapp.com,DIRECT
 # 知乎
@@ -88,20 +85,46 @@ HOST-SUFFIX,meituan.net,DIRECT
 HOST-SUFFIX,dianping.com,DIRECT
 HOST-SUFFIX,sankuai.com,DIRECT
 HOST-SUFFIX,neixin.cn,DIRECT
-# 12306
-HOST-SUFFIX,12306.cn,DIRECT
-HOST-SUFFIX,hzchengdun.com,DIRECT
+# 招行
+HOST-SUFFIX,cmbchina.com,DIRECT
+HOST-SUFFIX,cmbimg.com,DIRECT
+HOST-SUFFIX,cmbt.cn,DIRECT
 # 建行
 HOST-SUFFIX,ccb.cn,DIRECT
 HOST-SUFFIX,ccb.com,DIRECT
 HOST-SUFFIX,ccb.com.cn,DIRECT
 HOST-SUFFIX,ccbcos.com,DIRECT
-# 中行
+# 中国银行
 HOST-SUFFIX,bank-of-china.com,DIRECT
 HOST-SUFFIX,bankofchina.com,DIRECT
 HOST-SUFFIX,boc.cn,DIRECT
 HOST-SUFFIX,bochk.com,DIRECT
 HOST-SUFFIX,etnet.com.hk,DIRECT
+# 银联
+HOST-SUFFIX,95516.com,DIRECT
+HOST-SUFFIX,95516.net,DIRECT
+HOST-SUFFIX,airepay.net,DIRECT
+HOST-SUFFIX,chinapay.cn,DIRECT
+HOST-SUFFIX,chinapay.com,DIRECT
+HOST-SUFFIX,chinapayhongkong.com,DIRECT
+HOST-SUFFIX,chinaunionpay.com,DIRECT
+HOST-SUFFIX,chinaunionpay.com.cn,DIRECT
+HOST-SUFFIX,chinaunionpay.net,DIRECT
+HOST-SUFFIX,cup.com.cn,DIRECT
+HOST-SUFFIX,cup62.cn,DIRECT
+HOST-SUFFIX,unionpay.com,DIRECT
+HOST-SUFFIX,unionpay.net,DIRECT
+HOST-SUFFIX,unionpayintl.cn,DIRECT
+HOST-SUFFIX,unionpayintl.com,DIRECT
+HOST-SUFFIX,unionpaysecure.com,DIRECT
+# 12306
+HOST-SUFFIX,12306.cn,DIRECT
+HOST-SUFFIX,hzchengdun.com,DIRECT
+# 移动
+HOST-SUFFIX,10086.cn,DIRECT
+HOST-SUFFIX,chinamobile.com,DIRECT
+HOST-SUFFIX,chinamobileltd.com,DIRECT
+HOST-SUFFIX,cmpassport.com,DIRECT
 # 百度
 HOST-SUFFIX,baidu.com,DIRECT
 HOST-SUFFIX,bdimg.com,DIRECT
