@@ -28,6 +28,16 @@ IP-CIDR,216.73.80.0/20,PROXY
 HOST-SUFFIX,mozilla.com,PROXY
 HOST-SUFFIX,mozilla.org,PROXY
 HOST-SUFFIX,firefox.com,PROXY
+# schwab
+HOST-SUFFIX,launchdarkly.com,PROXY
+HOST-SUFFIX,schwab.com,PROXY
+HOST-SUFFIX,omtrdc.net,PROXY
+HOST-SUFFIX,demdex.net,PROXY
+HOST-SUFFIX,glancecdn.net,PROXY
+HOST-SUFFIX,go-mpulse.net,PROXY
+HOST-SUFFIX,tiqcdn.com,PROXY
+HOST-SUFFIX,adobedtm.com,PROXY
+HOST-SUFFIX,glance.net,PROXY
 # Spotify
 HOST-SUFFIX,scdn.co,PROXY
 HOST-SUFFIX,spotify.com,PROXY
