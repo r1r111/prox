@@ -145,13 +145,9 @@ HOST-SUFFIX,redditstatic.com,PROXY
 HOST-SUFFIX,feedly.com,PROXY
 HOST-SUFFIX,medium.com,PROXY
 HOST-SUFFIX,wordpress.com,PROXY
+# revenuecat
 HOST-SUFFIX,revenuecat.com,PROXY
 # Discord
 HOST-SUFFIX,discord.com,PROXY
 HOST-SUFFIX,discordapp.com,PROXY
 HOST-SUFFIX,discordapp.net,PROXY
-# Love
-HOST-SUFFIX,unity3d.com,PROXY
-HOST-SUFFIX,openlove.life,PROXY
-HOST-SUFFIX,ssacdn.com,PROXY
-HOST-SUFFIX,jquery.com,PROXY
