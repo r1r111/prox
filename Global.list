@@ -150,3 +150,6 @@ HOST-SUFFIX,revenuecat.com,PROXY
 HOST-SUFFIX,discord.com,PROXY
 HOST-SUFFIX,discordapp.com,PROXY
 HOST-SUFFIX,discordapp.net,PROXY
+# Love
+HOST-SUFFIX,unity3d.com,PROXY
+HOST-SUFFIX,openlove.life,PROXY
