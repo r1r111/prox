@@ -153,3 +153,5 @@ HOST-SUFFIX,discordapp.net,PROXY
 # Love
 HOST-SUFFIX,unity3d.com,PROXY
 HOST-SUFFIX,openlove.life,PROXY
+HOST-SUFFIX,ssacdn.com,PROXY
+HOST-SUFFIX,jquery.com,PROXY
