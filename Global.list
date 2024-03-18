@@ -141,6 +141,14 @@ HOST-SUFFIX,redd.it,PROXY
 HOST-SUFFIX,reddit.com,PROXY
 HOST-SUFFIX,redditmedia.com,PROXY
 HOST-SUFFIX,redditstatic.com,PROXY
+# VK
+HOST-SUFFIX,mvk.com,PROXY
+HOST-SUFFIX,userapi.com,PROXY
+HOST-SUFFIX,vk-cdn.me,PROXY
+HOST-SUFFIX,vk-cdn.net,PROXY
+HOST-SUFFIX,vk-portal.net,PROXY
+HOST-SUFFIX,vk.cc,PROXY
+HOST-SUFFIX,vk.com,PROXY
 # Other
 HOST-SUFFIX,feedly.com,PROXY
 HOST-SUFFIX,medium.com,PROXY
