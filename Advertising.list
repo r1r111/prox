@@ -229,5 +229,6 @@ IP-CIDR, 120.240.95.37/32, reject
 # > 深圳通微信小程序
 host-suffix, wxsnsdythumb.wxs.qq.com, reject
 
-
+# International
 host-suffix, sentry.io, reject
+host-suffix, adjust.com, reject
