@@ -24,10 +24,11 @@ HOST-SUFFIX,google.com,PROXY
 HOST-SUFFIX,youtu.be,PROXY
 IP-CIDR,172.110.32.0/21,PROXY
 IP-CIDR,216.73.80.0/20,PROXY
-# Firefox
-HOST-SUFFIX,mozilla.com,PROXY
-HOST-SUFFIX,mozilla.org,PROXY
-HOST-SUFFIX,firefox.com,PROXY
+# Discord
+HOST-SUFFIX,discord.com,PROXY
+HOST-SUFFIX,discordapp.com,PROXY
+HOST-SUFFIX,discordapp.net,PROXY
+HOST-SUFFIX,discord.gg,PROXY
 # interactivebrokers
 HOST-SUFFIX,interactivebrokers.com,PROXY
 HOST-SUFFIX,ibkr.com,PROXY
@@ -49,8 +50,6 @@ HOST-SUFFIX,spotifycdn.com,PROXY
 HOST-SUFFIX,akamaized.net,PROXY
 HOST-SUFFIX,branch.io,PROXY
 HOST-SUFFIX,anchor.fm,PROXY
-# Mega
-HOST-SUFFIX,mega.co.nz,PROXY
 # Openai
 HOST,browser-intake-datadoghq.com,PROXY
 HOST,static.cloudflareinsights.com,PROXY
@@ -129,6 +128,8 @@ IP-CIDR,91.108.0.0/16,PROXY
 # Wikimedia Foundation
 HOST-SUFFIX,wikimedia.org,PROXY
 HOST-SUFFIX,wikipedia.org,PROXY
+# Mega
+HOST-SUFFIX,mega.co.nz,PROXY
 # Instagram
 HOST-SUFFIX,cdninstagram.com,PROXY
 HOST-SUFFIX,instagr.am,PROXY
@@ -136,6 +137,10 @@ HOST-SUFFIX,instagram.com,PROXY
 HOST-KEYWORD,instagram,PROXY
 # Threads
 HOST-SUFFIX,threads.net,PROXY
+# Firefox
+HOST-SUFFIX,mozilla.com,PROXY
+HOST-SUFFIX,mozilla.org,PROXY
+HOST-SUFFIX,firefox.com,PROXY
 # Felo
 HOST-SUFFIX,felo.ai,PROXY
 HOST-SUFFIX,felo.me,PROXY
@@ -159,7 +164,4 @@ HOST-SUFFIX,medium.com,PROXY
 HOST-SUFFIX,wordpress.com,PROXY
 # revenuecat
 HOST-SUFFIX,revenuecat.com,PROXY
-# Discord
-HOST-SUFFIX,discord.com,PROXY
-HOST-SUFFIX,discordapp.com,PROXY
-HOST-SUFFIX,discordapp.net,PROXY
+
