@@ -28,6 +28,7 @@ IP-CIDR,216.73.80.0/20,PROXY
 HOST-SUFFIX,discord.com,PROXY
 HOST-SUFFIX,discordapp.com,PROXY
 HOST-SUFFIX,discordapp.net,PROXY
+HOST-SUFFIX,discord.media,PROXY
 HOST-SUFFIX,discord.gg,PROXY
 # interactivebrokers
 HOST-SUFFIX,interactivebrokers.com,PROXY
