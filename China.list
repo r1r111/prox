@@ -32,6 +32,56 @@ IP-CIDR,103.41.167.226/32,DIRECT
 IP-CIDR,103.41.167.234/31,DIRECT
 IP-CIDR,103.41.167.236/32,DIRECT
 IP-CIDR,118.89.204.198/32,DIRECT
+# Bilibili
+# >> USER-AGENT
+user-agent,bili*,DIRECT
+user-agent,Bilibili*,DIRECT
+# >> 主站
+host-suffix,bilibili.cc,DIRECT
+host-suffix,bilibili.cn,DIRECT
+host-suffix,bilibili.co,DIRECT
+host-suffix,bilibili.com,DIRECT
+host-suffix,bilibili.net,DIRECT
+host-suffix,bilibili.tv,DIRECT
+host-suffix,biliapi.com,DIRECT
+host-suffix,biliapi.net,DIRECT
+host-suffix,biliintl.com,DIRECT
+# >> 资源分发
+host-suffix,bilicdn1.com,DIRECT
+host-suffix,bilicdn2.com,DIRECT
+host-suffix,bilicdn3.com,DIRECT
+host-suffix,bilicdn4.com,DIRECT
+host-suffix,bilicdn5.com,DIRECT
+host-suffix,biliimg.com,DIRECT
+host-suffix,hdslb.com,DIRECT
+host-suffix,hdslb.com.w.kunlunhuf.com,DIRECT
+host-suffix,hdslb.com.w.kunlunpi.com,DIRECT
+host-suffix,hdslb.net,DIRECT
+host-suffix,hdslb.org,DIRECT
+host-suffix,maoercdn.com,DIRECT
+host-suffix,mcbbs.net,DIRECT
+host-suffix,mincdn.com,DIRECT
+host-suffix,smtcdns.net,DIRECT
+host-suffix,p-bstarstatic.akamaized.net,DIRECT
+host-suffix,p.bstarstatic.com,DIRECT
+host-suffix,upos-bstar-mirrorakam.akamaized.net,DIRECT
+host-suffix,upos-bstar1-mirrorakam.akamaized.net,DIRECT
+host-suffix,upos-hz-mirrorakam.akamaized.net,DIRECT
+# >> IP_CIDR
+ip-cidr,45.43.32.234/32,DIRECT
+ip-cidr,106.75.74.76/32,DIRECT
+ip-cidr,111.206.25.147/32,DIRECT
+ip-cidr,119.3.238.64/32,DIRECT
+ip-cidr,119.29.29.29/32,DIRECT
+ip-cidr,120.92.108.182/32,DIRECT
+ip-cidr,120.92.113.99/32,DIRECT
+ip-cidr,120.92.153.217/32,DIRECT
+ip-cidr,128.1.62.200/32,DIRECT
+ip-cidr,128.1.62.201/32,DIRECT
+ip-cidr,134.175.207.130/32,DIRECT
+ip-cidr,150.116.92.250/32,DIRECT
+ip-cidr,164.52.76.18/32,DIRECT
+ip-cidr,203.107.1.0/24,DIRECT
 # 小红书
 HOST-SUFFIX,fengkongcloud.com,DIRECT
 HOST-SUFFIX,xhscdn.com,DIRECT
@@ -90,6 +140,8 @@ HOST-SUFFIX,meituan.net,DIRECT
 HOST-SUFFIX,dianping.com,DIRECT
 HOST-SUFFIX,sankuai.com,DIRECT
 HOST-SUFFIX,neixin.cn,DIRECT
+# 富途牛牛
+HOST-SUFFIX,futunn.com,DIRECT
 # 招行
 HOST-SUFFIX,cmbchina.com,DIRECT
 HOST-SUFFIX,cmbimg.com,DIRECT
@@ -139,15 +191,6 @@ HOST-SUFFIX,yunjiasu-cdn.net,DIRECT
 # Umeng
 HOST-SUFFIX,umeng.com,DIRECT
 HOST-SUFFIX,umengcloud.com,DIRECT
-# 财新周刊
-HOST-SUFFIX,caing.cn,DIRECT
-HOST-SUFFIX,caing.com,DIRECT
-HOST-SUFFIX,caixin.com,DIRECT
-HOST-SUFFIX,caixinmedia.cn,DIRECT
-HOST-SUFFIX,caixinmedia.com,DIRECT
-HOST-SUFFIX,caixinmedia.com.cn,DIRECT
-HOST-SUFFIX,caixinonline.com,DIRECT
-HOST-SUFFIX,growingio.com,DIRECT
 # 喜马拉雅
 HOST-SUFFIX,ximalaya.com,DIRECT
 HOST-SUFFIX,xmcdn.com,DIRECT
@@ -156,7 +199,6 @@ HOST-SUFFIX,sf-express.com,DIRECT
 # 其他
 HOST-SUFFIX,geetest.com,DIRECT
 HOST-SUFFIX,douban.com,DIRECT
-HOST-SUFFIX,sohu.com,DIRECT
 HOST-SUFFIX,mob.com,DIRECT
 
 # GeoIP
