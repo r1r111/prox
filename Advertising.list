@@ -1,40 +1,4 @@
 # Advertising
-# 微博
-host,boot.biz.weibo.com,reject
-host-keyword, fastimage.uve.weibo.com, reject
-host-suffix, adimg.vue.weibo.com, reject
-host-suffix, zymo.mps.weibo.com, reject
-host-suffix, weibomingzi.com, reject
-host-suffix, sdkapp.uve.weibo.com, reject
-host-suffix, s.alitui.weibo.com, reject
-host-suffix, promote.biz.weibo.cn, reject
-host-suffix, gw5.push.mcp.weibo.cn, reject
-host-suffix, game.weibo.cn, reject
-host-suffix, biz.weibo.com, reject
-host-suffix, adimg.uve.weibo.com, reject
-host-suffix, game.weibo.com, reject
-host-suffix, gw6.push.mcp.weibo.cn, reject
-host-suffix, alitui.weibo.com, reject
-host, adimg.uve.weibo.com, reject
-host, adimg.vue.weibo.com, reject
-# 微博开屏广告预加载
-host, bootpreload.uve.weibo.com, reject
-
-# Tencent
-host-suffix,e.qq.com,REJECT
-host-suffix,gdt.qq.com,REJECT
-host-suffix,l.qq.com,REJECT
-host-suffix,adsmind.apdcdn.tc.qq.com,REJECT
-host-suffix,adsmind.gdtimg.com,REJECT
-host-suffix,adsmind.tc.qq.com,REJECT
-host-suffix,pgdt.gtimg.cn,REJECT
-host-suffix,pgdt.gtimg.com,REJECT
-host-suffix,pgdt.ugdtimg.com,REJECT
-host-suffix,splashqqlive.gtimg.com,REJECT
-host-suffix,wa.gtimg.com,REJECT
-host-suffix,wxsnsdy.wxs.qq.com,REJECT
-host-suffix,wxsnsdythumb.wxs.qq.com,REJECT
-
 # Apple
 host, advertising.apple.com, reject
 host, api-adservices.apple.com, reject
@@ -78,16 +42,6 @@ HOST-SUFFIX,badad.googleplex.com, reject
 HOST-SUFFIX,afd.l.google.com, reject
 host, ads.youtube.com, reject
 
-# Zhihu
-USER-AGENT,AVOS*, REJECT
-host, appcloud.zhihu.com, REJECT
-host, appcloud2.in.zhihu.com, REJECT
-host, mqtt.zhihu.com, REJECT
-host, sugar.zhihu.com, REJECT
-host, crash2.zhihu.com, REJECT
-IP-CIDR, 118.89.204.198/32, REJECT
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
-
 # Twitter
 host-suffix,ads-twitter.com,REJECT
 host-suffix,analytics.twitter.com,REJECT
@@ -103,6 +57,34 @@ host-suffix,ads-api.twitter.com,REJECT
 # Poe
 host-suffix,crashlytics.com,REJECT
 host-suffix,singular.net,REJECT
+
+# 哔哩哔哩
+host-keyword, api.sobot.com, reject
+host-suffix, cm.ad.bilibili.com, reject
+host-suffix, cm.adcommon.bilibili.com, reject
+host-suffix, cm.game.bilibili.com, reject
+host-suffix, cm.track.biligame.bilibili.com, reject
+
+# 微博
+host,boot.biz.weibo.com,reject
+host-keyword, fastimage.uve.weibo.com, reject
+host-suffix, adimg.vue.weibo.com, reject
+host-suffix, zymo.mps.weibo.com, reject
+host-suffix, weibomingzi.com, reject
+host-suffix, sdkapp.uve.weibo.com, reject
+host-suffix, s.alitui.weibo.com, reject
+host-suffix, promote.biz.weibo.cn, reject
+host-suffix, gw5.push.mcp.weibo.cn, reject
+host-suffix, game.weibo.cn, reject
+host-suffix, biz.weibo.com, reject
+host-suffix, adimg.uve.weibo.com, reject
+host-suffix, game.weibo.com, reject
+host-suffix, gw6.push.mcp.weibo.cn, reject
+host-suffix, alitui.weibo.com, reject
+host, adimg.uve.weibo.com, reject
+host, adimg.vue.weibo.com, reject
+# 微博开屏广告预加载
+host, bootpreload.uve.weibo.com, reject
 
 # 小红书
 host, ads-img-qc.xhscdn.com, REJECT
@@ -135,20 +117,20 @@ HOST, free-aos-cdn-image.amap.com, REJECT
 host-suffix, ad.caiyunapp.com, REJECT
 HOST, ad.cyapi.cn, REJECT
 
-# 京东
-host-suffix, jzt.jd.com, REJECT
-host-suffix, img-x.jd.com, REJECT
-host-suffix, du.jd.com, REJECT
-host-suffix, c-nfa.jd.com, REJECT
-host-suffix, cm.jd.com, REJECT
-host-keyword, policy.jd.com, REJECT
-host-keyword, kepler.jd.com, REJECT
-host-keyword, bdsp.x.jd.com, REJECT
-host-keyword, keplerapi.jd.com, REJECT
-host-keyword, mapi.m.jd.com, REJECT
-
-HOST, dns.jd.com, REJECT
-IP-CIDR, 101.124.19.122/32, REJECT
+# Tencent
+host-suffix,e.qq.com,REJECT
+host-suffix,gdt.qq.com,REJECT
+host-suffix,l.qq.com,REJECT
+host-suffix,adsmind.apdcdn.tc.qq.com,REJECT
+host-suffix,adsmind.gdtimg.com,REJECT
+host-suffix,adsmind.tc.qq.com,REJECT
+host-suffix,pgdt.gtimg.cn,REJECT
+host-suffix,pgdt.gtimg.com,REJECT
+host-suffix,pgdt.ugdtimg.com,REJECT
+host-suffix,splashqqlive.gtimg.com,REJECT
+host-suffix,wa.gtimg.com,REJECT
+host-suffix,wxsnsdy.wxs.qq.com,REJECT
+host-suffix,wxsnsdythumb.wxs.qq.com,REJECT
 
 # 淘宝
 host-suffix, apoll.m.taobao.com, REJECT
@@ -205,9 +187,38 @@ HOST, metrics-picture.d.meituan.net, REJECT
 HOST, open.kuaishouzt.com, REJECT
 HOST, route-stats.d.meituan.net, REJECT
 
+# 京东
+host-suffix, jzt.jd.com, REJECT
+host-suffix, img-x.jd.com, REJECT
+host-suffix, du.jd.com, REJECT
+host-suffix, c-nfa.jd.com, REJECT
+host-suffix, cm.jd.com, REJECT
+host-keyword, policy.jd.com, REJECT
+host-keyword, kepler.jd.com, REJECT
+host-keyword, bdsp.x.jd.com, REJECT
+host-keyword, keplerapi.jd.com, REJECT
+host-keyword, mapi.m.jd.com, REJECT
+
+HOST, dns.jd.com, REJECT
+IP-CIDR, 101.124.19.122/32, REJECT
+
 # 滴滴青桔（支付界面图片有误杀）
 ;host-keyword, pt-starimg.didistatic.com, reject
 ip-cidr, 203.107.1.1/24, reject
+
+# Spotify
+host-suffix, adeventtracker.spotify.com, reject
+host-suffix, weblb-wg.gslb.spotify.com, reject
+
+# Zhihu
+USER-AGENT,AVOS*, REJECT
+host, appcloud.zhihu.com, REJECT
+host, appcloud2.in.zhihu.com, REJECT
+host, mqtt.zhihu.com, REJECT
+host, sugar.zhihu.com, REJECT
+host, crash2.zhihu.com, REJECT
+IP-CIDR, 118.89.204.198/32, REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 
 # 建行
 host-suffix, adv.ccb.com, reject
