@@ -191,6 +191,9 @@ HOST-SUFFIX,yunjiasu-cdn.net,DIRECT
 # Umeng
 HOST-SUFFIX,umeng.com,DIRECT
 HOST-SUFFIX,umengcloud.com,DIRECT
+# 小宇宙
+HOST-SUFFIX,xiaoyuzhoufm.com,DIRECT
+HOST-SUFFIX,xyzcdn.net,DIRECT
 # 喜马拉雅
 HOST-SUFFIX,ximalaya.com,DIRECT
 HOST-SUFFIX,xmcdn.com,DIRECT
