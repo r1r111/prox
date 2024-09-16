@@ -112,9 +112,17 @@ HOST-SUFFIX,segment.io,PROXY
 HOST-SUFFIX,sentry.io,PROXY
 HOST-SUFFIX,stripe.com,PROXY
 HOST-SUFFIX,turn.livekit.cloud,PROXY
+# Perplexity
+HOST-SUFFIX,perplexity.ai,PROXY
+HOST-SUFFIX,cloudflareinsights.com,PROXY
+HOST-SUFFIX,cloudinary.com,PROXY
+HOST-SUFFIX,eppo.cloud,PROXY
+HOST-SUFFIX,imagedelivery.net,PROXY
 # Poe Quora
 HOST-SUFFIX,poe.com,PROXY
 HOST-SUFFIX,poecdn.net,PROXY
+HOST-SUFFIX,singular.net,PROXY
+HOST-SUFFIX,cookielaw.org,PROXY
 HOST-SUFFIX,quora.com,PROXY
 HOST-SUFFIX,quoracdn.net,PROXY
 # Spotify
@@ -145,7 +153,7 @@ HOST-SUFFIX,wikipedia.org,PROXY
 HOST-SUFFIX,cdninstagram.com,PROXY
 HOST-SUFFIX,instagr.am,PROXY
 HOST-SUFFIX,instagram.com,PROXY
-HOST-KEYWORD,instagram,PROXY
+HOST-SUFFIX,facebook.com,PROXY
 # Threads
 HOST-SUFFIX,threads.net,PROXY
 # Firefox
@@ -161,6 +169,13 @@ HOST-SUFFIX,redd.it,PROXY
 HOST-SUFFIX,reddit.com,PROXY
 HOST-SUFFIX,redditmedia.com,PROXY
 HOST-SUFFIX,redditstatic.com,PROXY
+# Feedly
+HOST-SUFFIX,feedly.com,PROXY
+HOST-SUFFIX,calendly.com,PROXY
+HOST-SUFFIX,googleusercontent.com,PROXY
+HOST-SUFFIX,intercom.io,PROXY
+HOST-SUFFIX,intercomcdn.com,PROXY
+HOST-SUFFIX,nowsecure.com,PROXY
 # VK
 HOST-SUFFIX,mvk.com,PROXY
 HOST-SUFFIX,userapi.com,PROXY
@@ -170,7 +185,6 @@ HOST-SUFFIX,vk-portal.net,PROXY
 HOST-SUFFIX,vk.cc,PROXY
 HOST-SUFFIX,vk.com,PROXY
 # Other
-HOST-SUFFIX,feedly.com,PROXY
 HOST-SUFFIX,medium.com,PROXY
 HOST-SUFFIX,wordpress.com,PROXY
 # revenuecat
