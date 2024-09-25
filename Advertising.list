@@ -243,3 +243,4 @@ host-suffix, wxsnsdythumb.wxs.qq.com, reject
 # International
 host-suffix, sentry.io, reject
 host-suffix, adjust.com, reject
+host-suffix, app-analytics-services.com, reject
