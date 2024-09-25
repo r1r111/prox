@@ -146,6 +146,7 @@ HOST-SUFFIX,github.io,PROXY
 HOST-SUFFIX,githubassets.com,PROXY
 HOST-SUFFIX,githubusercontent.com,PROXY
 HOST-SUFFIX,live.com,PROXY
+HOST-SUFFIX,microsoft.com,PROXY
 # Wikimedia Foundation
 HOST-SUFFIX,wikimedia.org,PROXY
 HOST-SUFFIX,wikipedia.org,PROXY
@@ -163,7 +164,6 @@ HOST-SUFFIX,firefox.com,PROXY
 # Felo
 HOST-SUFFIX,felo.ai,PROXY
 HOST-SUFFIX,felo.me,PROXY
-HOST-SUFFIX,microsoft.com,PROXY
 # Reddit
 HOST-SUFFIX,redd.it,PROXY
 HOST-SUFFIX,reddit.com,PROXY
