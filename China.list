@@ -141,7 +141,7 @@ HOST-SUFFIX,dianping.com,DIRECT
 HOST-SUFFIX,sankuai.com,DIRECT
 HOST-SUFFIX,neixin.cn,DIRECT
 # 富途牛牛
-HOST-SUFFIX,futunn.com,DIRECT
+#HOST-SUFFIX,futunn.com,DIRECT
 # 招行
 HOST-SUFFIX,cmbchina.com,DIRECT
 HOST-SUFFIX,cmbimg.com,DIRECT
