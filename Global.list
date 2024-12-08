@@ -75,8 +75,6 @@ HOST-SUFFIX,discord.gg,PROXY
 HOST-SUFFIX,interactivebrokers.com,PROXY
 HOST-SUFFIX,ibkr.com,PROXY
 HOST-SUFFIX,ibllc.com,PROXY
-# 富途牛牛
-HOST-SUFFIX,futunn.com,PROXY
 # Schwab
 HOST-SUFFIX,launchdarkly.com,PROXY
 HOST-SUFFIX,schwab.com,PROXY
