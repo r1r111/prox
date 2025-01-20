@@ -155,6 +155,7 @@ HOST-SUFFIX,cdninstagram.com,PROXY
 HOST-SUFFIX,instagr.am,PROXY
 HOST-SUFFIX,instagram.com,PROXY
 HOST-SUFFIX,facebook.com,PROXY
+HOST-SUFFIX,fbcdn.net,PROXY
 # Threads
 HOST-SUFFIX,threads.net,PROXY
 # Firefox
