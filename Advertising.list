@@ -165,7 +165,8 @@ host-suffix, click.tz.simba.taobao.com, REJECT
 host-suffix, stat.simba.taobao.com, REJECT
 host-suffix, m-adash.m.taobao.com, REJECT
 host-suffix, adashbc.m.taobao.com, REJECT
-
+# alimama
+host-suffix, tanx.com, reject
 # 美团
 host, flowplus.meituan.net, reject
 host-suffix, analytics.meituan.net, reject
@@ -209,6 +210,9 @@ ip-cidr, 203.107.1.1/24, reject
 # Spotify
 host-suffix, adeventtracker.spotify.com, reject
 host-suffix, weblb-wg.gslb.spotify.com, reject
+# Douban
+host-suffix, erebor.douban.com, reject
+host-suffix, ad.doubanio.com, reject
 
 # 建行
 host-suffix, adv.ccb.com, reject
