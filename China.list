@@ -142,10 +142,13 @@ HOST-SUFFIX,sankuai.com,DIRECT
 HOST-SUFFIX,neixin.cn,DIRECT
 # 富途牛牛
 HOST-SUFFIX,futunn.com,DIRECT
-# 招行
+# 银行
+HOST-SUFFIX,getui.com,DIRECT
+# 招商银行
 HOST-SUFFIX,cmbchina.com,DIRECT
 HOST-SUFFIX,cmbimg.com,DIRECT
 HOST-SUFFIX,cmbt.cn,DIRECT
+HOST-SUFFIX,joying.com,DIRECT
 # 建行
 HOST-SUFFIX,ccb.cn,DIRECT
 HOST-SUFFIX,ccb.com,DIRECT
