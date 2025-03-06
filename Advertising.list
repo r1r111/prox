@@ -210,16 +210,6 @@ ip-cidr, 203.107.1.1/24, reject
 host-suffix, adeventtracker.spotify.com, reject
 host-suffix, weblb-wg.gslb.spotify.com, reject
 
-# Zhihu
-USER-AGENT,AVOS*, REJECT
-host, appcloud.zhihu.com, REJECT
-host, appcloud2.in.zhihu.com, REJECT
-host, mqtt.zhihu.com, REJECT
-host, sugar.zhihu.com, REJECT
-host, crash2.zhihu.com, REJECT
-IP-CIDR, 118.89.204.198/32, REJECT
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
-
 # 建行
 host-suffix, adv.ccb.com, reject
 
