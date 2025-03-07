@@ -119,7 +119,6 @@ HOST-SUFFIX,alipayobjects.com,DIRECT
 HOST-SUFFIX,aliyun.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
 HOST-SUFFIX,tanx.com,DIRECT
-HOST-SUFFIX,uc.cn,DIRECT
 HOST-SUFFIX,digicert.com,DIRECT
 # 京东
 HOST-SUFFIX,jd.com,DIRECT
@@ -194,15 +193,12 @@ HOST-SUFFIX,yunjiasu-cdn.net,DIRECT
 # Umeng
 HOST-SUFFIX,umeng.com,DIRECT
 HOST-SUFFIX,umengcloud.com,DIRECT
-# 豆瓣
-HOST-SUFFIX,douban.com,DIRECT
-HOST-SUFFIX,doubanio.com,DIRECT
 # 小宇宙
 HOST-SUFFIX,xiaoyuzhoufm.com,DIRECT
 HOST-SUFFIX,xyzcdn.net,DIRECT
 # 喜马拉雅
-HOST-SUFFIX,ximalaya.com,DIRECT
-HOST-SUFFIX,xmcdn.com,DIRECT
+# HOST-SUFFIX,ximalaya.com,DIRECT
+# HOST-SUFFIX,xmcdn.com,DIRECT
 # 顺丰
 HOST-SUFFIX,sf-express.com,DIRECT
 # 其他
