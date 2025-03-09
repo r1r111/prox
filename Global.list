@@ -1,17 +1,3 @@
-# Twitter
-HOST-SUFFIX,x.com,PROXY
-HOST-SUFFIX,t.co,PROXY
-HOST-SUFFIX,gstatic.com,PROXY
-HOST-SUFFIX,twimg.com,PROXY
-HOST-SUFFIX,twitter.com,PROXY
-HOST-SUFFIX,ads-twitter.com,PROXY
-IP-CIDR,192.133.76.0/22,PROXY
-IP-CIDR,199.16.156.0/22,PROXY
-IP-CIDR,199.59.148.0/22,PROXY
-IP-CIDR,199.96.56.0/21,PROXY
-IP-CIDR,202.160.128.0/22,PROXY
-IP-CIDR,209.237.192.0/19,PROXY
-IP-CIDR,69.195.160.0/19,PROXY
 # Alphabet
 HOST-SUFFIX,adsense.com,PROXY
 HOST-SUFFIX,advertisercommunity.com,PROXY
@@ -54,39 +40,50 @@ HOST-SUFFIX,youtube.co.jp,PROXY
 HOST-SUFFIX,youtu.be,PROXY
 IP-CIDR,172.110.32.0/21,PROXY
 IP-CIDR,216.73.80.0/20,PROXY
-# Telegram
-HOST-SUFFIX,telegram-cdn.org,PROXY
-HOST-SUFFIX,legra.ph,PROXY
-HOST-SUFFIX,t.me,PROXY
-HOST-SUFFIX,telegra.ph,PROXY
-HOST-SUFFIX,telegram.me,PROXY
-HOST-SUFFIX,telegram.org,PROXY
-IP-CIDR,109.239.140.0/24,PROXY
-IP-CIDR,149.154.160.0/20,PROXY
-IP-CIDR,5.28.192.0/18,PROXY
-IP-CIDR,91.108.0.0/16,PROXY
 # Discord
 HOST-SUFFIX,discord.com,PROXY
 HOST-SUFFIX,discordapp.com,PROXY
 HOST-SUFFIX,discordapp.net,PROXY
 HOST-SUFFIX,discord.media,PROXY
 HOST-SUFFIX,discord.gg,PROXY
+# Facebook
+HOST-SUFFIX,fbcdn.net,PROXY
+HOST-SUFFIX,fbsbx.com,PROXY
+# Firefox
+HOST-SUFFIX,mozilla.com,PROXY
+HOST-SUFFIX,mozilla.org,PROXY
+HOST-SUFFIX,firefox.com,PROXY
+# Felo
+HOST-SUFFIX,felo.ai,PROXY
+HOST-SUFFIX,felo.me,PROXY
+# Feedly
+HOST-SUFFIX,feedly.com,PROXY
+HOST-SUFFIX,calendly.com,PROXY
+HOST-SUFFIX,googleusercontent.com,PROXY
+HOST-SUFFIX,intercom.io,PROXY
+HOST-SUFFIX,intercomcdn.com,PROXY
+HOST-SUFFIX,nowsecure.com,PROXY
 # Interactivebrokers
 HOST-SUFFIX,interactivebrokers.com,PROXY
 HOST-SUFFIX,ibkr.com,PROXY
 HOST-SUFFIX,ibllc.com,PROXY
-# Schwab
-HOST-SUFFIX,launchdarkly.com,PROXY
-HOST-SUFFIX,schwab.com,PROXY
-HOST-SUFFIX,omtrdc.net,PROXY
-HOST-SUFFIX,demdex.net,PROXY
-HOST-SUFFIX,glancecdn.net,PROXY
-HOST-SUFFIX,go-mpulse.net,PROXY
-HOST-SUFFIX,tiqcdn.com,PROXY
-HOST-SUFFIX,adobedtm.com,PROXY
-HOST-SUFFIX,glance.net,PROXY
-# Wise
-HOST-SUFFIX,wise.com,PROXY
+HOST-SUFFIX,tipranks.com,PROXY
+# Instagram
+HOST-SUFFIX,cdninstagram.com,PROXY
+HOST-SUFFIX,instagr.am,PROXY
+HOST-SUFFIX,instagram.com,PROXY
+HOST-SUFFIX,facebook.com,PROXY
+HOST-SUFFIX,fbcdn.net,PROXY
+# Mega
+HOST-SUFFIX,mega.co.nz,PROXY
+# Microsoft github
+HOST-SUFFIX,github.com,PROXY
+HOST-SUFFIX,github.io,PROXY
+HOST-SUFFIX,githubassets.com,PROXY
+HOST-SUFFIX,githubusercontent.com,PROXY
+HOST-SUFFIX,live.com,PROXY
+HOST-SUFFIX,microsoft.com,PROXY
+HOST-SUFFIX,office.com,PROXY
 # Openai
 HOST,browser-intake-datadoghq.com,PROXY
 HOST,static.cloudflareinsights.com,PROXY
@@ -112,12 +109,6 @@ HOST-SUFFIX,segment.io,PROXY
 HOST-SUFFIX,sentry.io,PROXY
 HOST-SUFFIX,stripe.com,PROXY
 HOST-SUFFIX,turn.livekit.cloud,PROXY
-# Perplexity
-HOST-SUFFIX,perplexity.ai,PROXY
-HOST-SUFFIX,cloudflareinsights.com,PROXY
-HOST-SUFFIX,cloudinary.com,PROXY
-HOST-SUFFIX,eppo.cloud,PROXY
-HOST-SUFFIX,imagedelivery.net,PROXY
 # Poe Quora
 HOST-SUFFIX,poe.com,PROXY
 HOST-SUFFIX,poecdn.net,PROXY
@@ -125,6 +116,35 @@ HOST-SUFFIX,singular.net,PROXY
 HOST-SUFFIX,cookielaw.org,PROXY
 HOST-SUFFIX,quora.com,PROXY
 HOST-SUFFIX,quoracdn.net,PROXY
+# Perplexity
+HOST-SUFFIX,perplexity.ai,PROXY
+HOST-SUFFIX,cloudflareinsights.com,PROXY
+HOST-SUFFIX,cloudinary.com,PROXY
+HOST-SUFFIX,eppo.cloud,PROXY
+HOST-SUFFIX,imagedelivery.net,PROXY
+# Protonmail
+HOST-SUFFIX,pm.me,PROXY
+HOST-SUFFIX,proton.me,PROXY
+HOST-SUFFIX,protonmail.ch,PROXY
+HOST-SUFFIX,protonmail.com,PROXY
+HOST-SUFFIX,protonstatus.com,PROXY
+# Reddit
+HOST-SUFFIX,redd.it,PROXY
+HOST-SUFFIX,reddit.com,PROXY
+HOST-SUFFIX,redditmedia.com,PROXY
+HOST-SUFFIX,redditstatic.com,PROXY
+# revenuecat
+HOST-SUFFIX,revenuecat.com,PROXY
+# Schwab
+HOST-SUFFIX,launchdarkly.com,PROXY
+HOST-SUFFIX,schwab.com,PROXY
+HOST-SUFFIX,omtrdc.net,PROXY
+HOST-SUFFIX,demdex.net,PROXY
+HOST-SUFFIX,glancecdn.net,PROXY
+HOST-SUFFIX,go-mpulse.net,PROXY
+HOST-SUFFIX,tiqcdn.com,PROXY
+HOST-SUFFIX,adobedtm.com,PROXY
+HOST-SUFFIX,glance.net,PROXY
 # Spotify
 HOST-SUFFIX,scdn.co,PROXY
 HOST-SUFFIX,spotify.com,PROXY
@@ -132,51 +152,19 @@ HOST-SUFFIX,spotifycdn.com,PROXY
 HOST-SUFFIX,akamaized.net,PROXY
 HOST-SUFFIX,branch.io,PROXY
 HOST-SUFFIX,anchor.fm,PROXY
-# Protonmail
-HOST-SUFFIX,pm.me,PROXY
-HOST-SUFFIX,proton.me,PROXY
-HOST-SUFFIX,protonmail.ch,PROXY
-HOST-SUFFIX,protonmail.com,PROXY
-HOST-SUFFIX,protonstatus.com,PROXY
-# Mega
-HOST-SUFFIX,mega.co.nz,PROXY
-# Microsoft github
-HOST-SUFFIX,github.com,PROXY
-HOST-SUFFIX,github.io,PROXY
-HOST-SUFFIX,githubassets.com,PROXY
-HOST-SUFFIX,githubusercontent.com,PROXY
-HOST-SUFFIX,live.com,PROXY
-HOST-SUFFIX,microsoft.com,PROXY
-# Wikimedia Foundation
-HOST-SUFFIX,wikimedia.org,PROXY
-HOST-SUFFIX,wikipedia.org,PROXY
-# Instagram
-HOST-SUFFIX,cdninstagram.com,PROXY
-HOST-SUFFIX,instagr.am,PROXY
-HOST-SUFFIX,instagram.com,PROXY
-HOST-SUFFIX,facebook.com,PROXY
-HOST-SUFFIX,fbcdn.net,PROXY
+# Telegram
+HOST-SUFFIX,telegram-cdn.org,PROXY
+HOST-SUFFIX,legra.ph,PROXY
+HOST-SUFFIX,t.me,PROXY
+HOST-SUFFIX,telegra.ph,PROXY
+HOST-SUFFIX,telegram.me,PROXY
+HOST-SUFFIX,telegram.org,PROXY
+IP-CIDR,109.239.140.0/24,PROXY
+IP-CIDR,149.154.160.0/20,PROXY
+IP-CIDR,5.28.192.0/18,PROXY
+IP-CIDR,91.108.0.0/16,PROXY
 # Threads
 HOST-SUFFIX,threads.net,PROXY
-# Firefox
-HOST-SUFFIX,mozilla.com,PROXY
-HOST-SUFFIX,mozilla.org,PROXY
-HOST-SUFFIX,firefox.com,PROXY
-# Felo
-HOST-SUFFIX,felo.ai,PROXY
-HOST-SUFFIX,felo.me,PROXY
-# Reddit
-HOST-SUFFIX,redd.it,PROXY
-HOST-SUFFIX,reddit.com,PROXY
-HOST-SUFFIX,redditmedia.com,PROXY
-HOST-SUFFIX,redditstatic.com,PROXY
-# Feedly
-HOST-SUFFIX,feedly.com,PROXY
-HOST-SUFFIX,calendly.com,PROXY
-HOST-SUFFIX,googleusercontent.com,PROXY
-HOST-SUFFIX,intercom.io,PROXY
-HOST-SUFFIX,intercomcdn.com,PROXY
-HOST-SUFFIX,nowsecure.com,PROXY
 # VK
 HOST-SUFFIX,mvk.com,PROXY
 HOST-SUFFIX,userapi.com,PROXY
@@ -185,8 +173,25 @@ HOST-SUFFIX,vk-cdn.net,PROXY
 HOST-SUFFIX,vk-portal.net,PROXY
 HOST-SUFFIX,vk.cc,PROXY
 HOST-SUFFIX,vk.com,PROXY
+# Wise
+HOST-SUFFIX,wise.com,PROXY
+# Wikimedia Foundation
+HOST-SUFFIX,wikimedia.org,PROXY
+HOST-SUFFIX,wikipedia.org,PROXY
+# X
+HOST-SUFFIX,x.com,PROXY
+HOST-SUFFIX,t.co,PROXY
+HOST-SUFFIX,gstatic.com,PROXY
+HOST-SUFFIX,twimg.com,PROXY
+HOST-SUFFIX,twitter.com,PROXY
+HOST-SUFFIX,ads-twitter.com,PROXY
+IP-CIDR,192.133.76.0/22,PROXY
+IP-CIDR,199.16.156.0/22,PROXY
+IP-CIDR,199.59.148.0/22,PROXY
+IP-CIDR,199.96.56.0/21,PROXY
+IP-CIDR,202.160.128.0/22,PROXY
+IP-CIDR,209.237.192.0/19,PROXY
+IP-CIDR,69.195.160.0/19,PROXY
 # Other
 HOST-SUFFIX,medium.com,PROXY
 HOST-SUFFIX,wordpress.com,PROXY
-# revenuecat
-HOST-SUFFIX,revenuecat.com,PROXY
