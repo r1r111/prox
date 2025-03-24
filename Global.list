@@ -152,6 +152,8 @@ HOST-SUFFIX,spotifycdn.com,PROXY
 HOST-SUFFIX,akamaized.net,PROXY
 HOST-SUFFIX,branch.io,PROXY
 HOST-SUFFIX,anchor.fm,PROXY
+# Signal
+HOST-SUFFIX,signal.org,PROXY
 # Telegram
 HOST-SUFFIX,telegram-cdn.org,PROXY
 HOST-SUFFIX,legra.ph,PROXY
@@ -163,6 +165,7 @@ IP-CIDR,109.239.140.0/24,PROXY
 IP-CIDR,149.154.160.0/20,PROXY
 IP-CIDR,5.28.192.0/18,PROXY
 IP-CIDR,91.108.0.0/16,PROXY
+# Tesla
 # Threads
 HOST-SUFFIX,threads.net,PROXY
 # VK
@@ -173,6 +176,9 @@ HOST-SUFFIX,vk-cdn.net,PROXY
 HOST-SUFFIX,vk-portal.net,PROXY
 HOST-SUFFIX,vk.cc,PROXY
 HOST-SUFFIX,vk.com,PROXY
+# Whatsapp
+HOST-SUFFIX,whatsapp.com,PROXY
+HOST-SUFFIX,whatsapp.net,PROXY
 # Wise
 HOST-SUFFIX,wise.com,PROXY
 # Wikimedia Foundation
