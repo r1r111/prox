@@ -154,6 +154,8 @@ HOST-SUFFIX,branch.io,PROXY
 HOST-SUFFIX,anchor.fm,PROXY
 # Signal
 HOST-SUFFIX,signal.org,PROXY
+# symantec.com
+HOST-SUFFIX,symantec.com,PROXY
 # Telegram
 HOST-SUFFIX,telegram-cdn.org,PROXY
 HOST-SUFFIX,legra.ph,PROXY
