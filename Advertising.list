@@ -66,23 +66,33 @@ host-suffix, cm.game.bilibili.com, reject
 host-suffix, cm.track.biligame.bilibili.com, reject
 
 # 微博
-host,boot.biz.weibo.com,reject
-host-keyword, fastimage.uve.weibo.com, reject
+host-suffix, fastimage.uve.weibo.com, reject
 host-suffix, adimg.vue.weibo.com, reject
 host-suffix, zymo.mps.weibo.com, reject
 host-suffix, weibomingzi.com, reject
 host-suffix, sdkapp.uve.weibo.com, reject
-host-suffix, s.alitui.weibo.com, reject
 host-suffix, promote.biz.weibo.cn, reject
 host-suffix, gw5.push.mcp.weibo.cn, reject
+host-suffix, gw6.push.mcp.weibo.cn, reject
 host-suffix, game.weibo.cn, reject
-host-suffix, biz.weibo.com, reject
 host-suffix, adimg.uve.weibo.com, reject
 host-suffix, game.weibo.com, reject
-host-suffix, gw6.push.mcp.weibo.cn, reject
+host-suffix, ads.viber.com, reject
+host-suffix, ads-d.viber.com, reject
+host-suffix, ads.aws.viber.com, reject
 host-suffix, alitui.weibo.com, reject
-host, adimg.uve.weibo.com, reject
-host, adimg.vue.weibo.com, reject
+host-suffix, dp.im.weibo.cn, reject
+host-suffix, biz.weibo.com.cn, reject
+host-suffix, biz.weibo.com, reject
+host-suffix, click.uve.weibo.com, reject
+host-suffix, wax.weibo.com, reject
+host-suffix, wbapp.uve.weibo.com, reject
+host-suffix, widget.weibo.com, reject
+host-suffix, dsp.edm.weibo.cn, reject
+host-suffix, alitui.weibo.com.cn, reject
+host-suffix, tui.weibo.com, reject
+host-suffix, wax.weibo.com.cn, reject
+host-suffix, ad.weibo.com, reject
 # 微博开屏广告预加载
 host, bootpreload.uve.weibo.com, reject
 
@@ -133,38 +143,39 @@ host-suffix,wxsnsdy.wxs.qq.com,REJECT
 host-suffix,wxsnsdythumb.wxs.qq.com,REJECT
 
 # 淘宝
-host-suffix, apoll.m.taobao.com, REJECT
-host-suffix, h-adashx.ut.taobao.com, REJECT
-host-suffix, w.m.taobao.com, REJECT
-;host-suffix, ai.m.taobao.com, REJECT
-host-suffix, re.m.taobao.com, REJECT
-host-suffix, agoodm.m.taobao.com, REJECT
-host-suffix, ai.taobao.com, REJECT
-host-suffix, api.waptest.taobao.com, REJECT
-host-suffix, dsp.simba.taobao.com, REJECT
-host-suffix, fav.simba.taobao.com, REJECT
-host-suffix, m.simba.taobao.com, REJECT
-host-suffix, mclick.simba.taobao.com, REJECT
-host-suffix, re.taobao.com, REJECT
-host-suffix, redirect.simba.taobao.com, REJECT
-host-suffix, simba.m.taobao.com, REJECT
-host-suffix, srd.simba.taobao.com, REJECT
-host-suffix, temai.taobao.com, REJECT
-host-suffix, textlink.simba.taobao.com, REJECT
-host-suffix, unitacs.m.taobao.com, REJECT
-host-suffix, acs4baichuan.m.taobao.com, REJECT
-host-suffix, adashbc.ut.taobao.com, REJECT
-host-suffix, adash-c.ut.taobao.com, REJECT
-host-suffix, adashxgc.ut.taobao.com, REJECT
-host-suffix, adashx4yt.m.taobao.com, REJECT
-host-suffix, tunion-api.m.taobao.com, REJECT
-host-suffix, tns.simba.taobao.com, REJECT
-host-suffix, click.mz.simba.taobao.com, REJECT
-host-suffix, click.simba.taobao.com, REJECT
-host-suffix, click.tz.simba.taobao.com, REJECT
-host-suffix, stat.simba.taobao.com, REJECT
-host-suffix, m-adash.m.taobao.com, REJECT
-host-suffix, adashbc.m.taobao.com, REJECT
+host-suffix, apoll.m.taobao.com, reject
+host-suffix, h-adashx.ut.taobao.com, reject
+host-suffix, w.m.taobao.com, reject
+host, tunion-api.m.taobao.com, reject
+;host-suffix, ai.m.taobao.com, reject
+host-suffix, re.m.taobao.com, reject
+host-suffix, agoodm.m.taobao.com, reject
+host-suffix, ai.taobao.com, reject
+host-suffix, api.waptest.taobao.com, reject
+host-suffix, dsp.simba.taobao.com, reject
+host-suffix, fav.simba.taobao.com, reject
+host-suffix, m.simba.taobao.com, reject
+host-suffix, mclick.simba.taobao.com, reject
+host-suffix, re.taobao.com, reject
+host-suffix, redirect.simba.taobao.com, reject
+host-suffix, simba.m.taobao.com, reject
+host-suffix, srd.simba.taobao.com, reject
+host-suffix, temai.taobao.com, reject
+host-suffix, textlink.simba.taobao.com, reject
+host-suffix, unitacs.m.taobao.com, reject
+host-suffix, acs4baichuan.m.taobao.com, reject
+host-suffix, adashbc.ut.taobao.com, reject
+host-suffix, adash-c.ut.taobao.com, reject
+host-suffix, adashxgc.ut.taobao.com, reject
+host-suffix, adashx4yt.m.taobao.com, reject
+host-suffix, tunion-api.m.taobao.com, reject
+host-suffix, tns.simba.taobao.com, reject
+host-suffix, click.mz.simba.taobao.com, reject
+host-suffix, click.simba.taobao.com, reject
+host-suffix, click.tz.simba.taobao.com, reject
+host-suffix, stat.simba.taobao.com, reject
+host-suffix, m-adash.m.taobao.com, reject
+host-suffix, adashbc.m.taobao.com, reject
 # alimama
 host-suffix, tanx.com, reject
 # 美团
@@ -237,3 +248,26 @@ host-suffix, wxsnsdythumb.wxs.qq.com, reject
 # International
 host-suffix, sentry.io, reject
 host-suffix, adjust.com, reject
+
+# > 抖音
+host-keyword, bds.snssdk.com, reject
+host-keyword, p3.pstatp.com, reject
+
+# > 知乎
+USER-AGENT,AVOS*, reject
+host, appcloud.zhihu.com, reject
+host, appcloud2.in.zhihu.com, reject
+host, mqtt.zhihu.com, reject
+host, sugar.zhihu.com, reject
+host, crash2.zhihu.com, reject
+host, 118.89.204.198, reject
+IP-CIDR, 118.89.204.198/32, reject
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
+
+# > 哔哩哔哩
+#host, app.biliapi.net, reject
+#host, api.biliapi.net, reject
+#host, app.biliapi.com, reject
+#host, api.biliapi.com, reject
+#host, line3-h5-mobile-api.biligame.com, reject
+#host-suffix, chat.bilibili.com, reject
