@@ -109,17 +109,27 @@ HOST-SUFFIX,alikunlun.com,DIRECT
 HOST-SUFFIX,alipay.com,DIRECT
 HOST-SUFFIX,alipay.cn,DIRECT
 HOST-SUFFIX,aliapp.org,DIRECT
-HOST-SUFFIX,amap.com,DIRECT
-HOST-SUFFIX,autonavi.com,DIRECT
-HOST-SUFFIX,dingtalk.com,DIRECT
 HOST-SUFFIX,taobao.com,DIRECT
 HOST-SUFFIX,tmall.com,DIRECT
 HOST-SUFFIX,ykimg.com,DIRECT
 HOST-SUFFIX,alipayobjects.com,DIRECT
+# 阿里云
 HOST-SUFFIX,aliyun.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
 HOST-SUFFIX,tanx.com,DIRECT
 HOST-SUFFIX,digicert.com,DIRECT
+# 饿了么
+HOST-SUFFIX,elemecdn.com,DIRECT
+# 菜鸟
+HOST-SUFFIX,cainiao.com,DIRECT
+# 闲鱼
+HOST-SUFFIX,goofish.com,DIRECT
+# 高德
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,autonavi.com,DIRECT
+# 钉钉
+HOST-SUFFIX,dingtalk.com,DIRECT
+
 # 京东
 HOST-SUFFIX,jd.com,DIRECT
 HOST-SUFFIX,jdpay.com,DIRECT
@@ -201,6 +211,10 @@ HOST-SUFFIX,xyzcdn.net,DIRECT
 # HOST-SUFFIX,xmcdn.com,DIRECT
 # 顺丰
 HOST-SUFFIX,sf-express.com,DIRECT
+# 邮政
+HOST-SUFFIX,ems.com.cn,DIRECT
+# 去哪儿
+HOST-SUFFIX,qunar.com,DIRECT
 # 其他
 HOST-SUFFIX,geetest.com,DIRECT
 HOST-SUFFIX,mob.com,DIRECT
