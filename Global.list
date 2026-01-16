@@ -26,6 +26,17 @@ DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,.blogspot.,PROXY
 HOST-SUFFIX,goog,PROXY
 HOST-SUFFIX,app-measurement.com,PROXY
+# Gemini
+HOST,ai.google.dev,PROXY
+HOST,alkalimakersuite-pa.clients6.google.com,PROXY
+HOST,makersuite.google.com,PROXY
+HOST-SUFFIX,bard.google.com,PROXY
+HOST-SUFFIX,deepmind.com,PROXY
+HOST-SUFFIX,deepmind.google,PROXY
+HOST-SUFFIX,gemini.google.com,PROXY
+HOST-SUFFIX,generativeai.google,PROXY
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,PROXY
+HOST-SUFFIX,apis.google.com,PROXY
 # YouTube
 USER-AGENT,com.google.ios.youtube*,PROXY
 USER-AGENT,YouTube*,PROXY
@@ -53,9 +64,6 @@ HOST-SUFFIX,fbsbx.com,PROXY
 HOST-SUFFIX,mozilla.com,PROXY
 HOST-SUFFIX,mozilla.org,PROXY
 HOST-SUFFIX,firefox.com,PROXY
-# Felo
-HOST-SUFFIX,felo.ai,PROXY
-HOST-SUFFIX,felo.me,PROXY
 # Feedly
 HOST-SUFFIX,feedly.com,PROXY
 HOST-SUFFIX,calendly.com,PROXY
