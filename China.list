@@ -154,8 +154,7 @@ HOST-SUFFIX,meituan.net,DIRECT
 HOST-SUFFIX,dianping.com,DIRECT
 HOST-SUFFIX,sankuai.com,DIRECT
 HOST-SUFFIX,neixin.cn,DIRECT
-# 富途牛牛
-HOST-SUFFIX,futunn.com,DIRECT
+
 # 银行
 HOST-SUFFIX,getui.com,DIRECT
 # 招商银行
