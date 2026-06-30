@@ -113,6 +113,7 @@ HOST-SUFFIX,taobao.com,DIRECT
 HOST-SUFFIX,tmall.com,DIRECT
 HOST-SUFFIX,ykimg.com,DIRECT
 HOST-SUFFIX,alipayobjects.com,DIRECT
+HOST-SUFFIX,qianwen.com,DIRECT
 # 阿里云
 HOST-SUFFIX,aliyun.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
